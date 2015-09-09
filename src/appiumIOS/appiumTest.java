@@ -131,10 +131,15 @@ public void addItemsToBasketTest() throws Exception{
 public void addItemsTest() throws ClientProtocolException, ParseException, IOException, org.json.simple.parser.ParseException, InterruptedException, JSONException, URISyntaxException, HttpException{
 	responseURL obj = new responseURL(driver);
 	obj.loginAccess();
-	//obj.getSearchProducts("milk");
-	//add items with count
 	obj.addItemsWithCount("milk", 8);
 	//sign in 
+	if (obj.checkElementVisibility(driver, "signin_btn") == true){
+		obj.signIn();
+	}else{
+		System.out.print("\nAlready logged in...");
+		obj.signOut();
+		obj.signIn();
+	}
 	anonymousPage signin = new anonymousPage(driver);
 	signin.signIn();
 }
@@ -148,22 +153,6 @@ public void emptyBasketApp() throws InterruptedException
 		obj.signIn();
 	}
 	obj1.emptyYourBasket();
-}
-
-@Test
-public void emptyBasketTest() throws ClientProtocolException, ParseException, IOException, org.json.simple.parser.ParseException, InterruptedException, JSONException, URISyntaxException, HttpException{
-	responseURL obj = new responseURL(driver);
-	obj.loginAccess();
-	obj.addItemsWithCount("milk", 8);
-	//sign in 
-	anonymousPage signin = new anonymousPage(driver);
-	signin.signIn();
-	/*fire empty basket call*/
-	obj.emptyBasket();
-	/*Sign out and Sign in to check empty basket*/
-	dashborad signout = new dashborad(driver);
-	signout.signOut();
-	signin.signIn();
 }
 
 @Test
