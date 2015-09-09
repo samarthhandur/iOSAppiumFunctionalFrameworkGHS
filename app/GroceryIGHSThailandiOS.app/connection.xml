@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--FOR HELP, SEE SAMPLE CONFIGURATION PROVIDED WITHIN EACH CONNECTOR-->
+<CountryConnector name="UK">
+  <Connectors>
+    <Connector name="InternationalAPI" type="CCube.Core.Connector.InternationalGrocery.Connector,CCube.Core" configVOType="CCube.Core.Connector.ConfigVO.ConnectorConfiguration,CCube.Core">
+    </Connector>
+    <!---<Connector name="TacticalAPI" type="CCube.Core.Connector.Tactical.Connector,CCube.Core" configVOType="CCube.Core.Connector.ConfigVO.ConnectorConfiguration,CCube.Core">
+    </Connector>-->
+  </Connectors>
+
+  <!---<sharedIdentities>
+    <sharedIdentity name="Token" action="GetToken" commandName="TOKEN">
+      <Connectors>
+  
+        <Connector name="InternationalAPI"/>
+      </Connectors>
+    </sharedIdentity>
+  </sharedIdentities>-->
+
+  <ConfigurationDetails>
+
+    <ConnectorConfiguration name="InternationalAPI">      
+      <!---<baseURL>http://ighsapi2.pagekite.me/api/</baseURL>
+      <securedBaseURL>https://ighsapi2.pagekite.me/api/</securedBaseURL>-->
+      <!---<baseURL>http://localhost:3001/</baseURL>
+      <securedBaseURL>https://localhost:3001/</securedBaseURL>-->
+      <baseURL>http://s.tescolotus.com/api/v1/</baseURL>
+      <securedBaseURL>https://s.tescolotus.com/api/v1/</securedBaseURL>
+
+      <dependentCacheGroups>
+        <cacheGroup name="ProductGroup">
+          <command ref="FavouriteList" />
+          <command ref="BuyList" />
+          <command ref="ProductList" />
+          <command ref="ListProductsBySpecialOffer" />
+          <command ref="RestOfShelf" />
+          <command ref="ProductDetail" />
+          <command ref="ListProductsByOffer" />
+        </cacheGroup>
+      </dependentCacheGroups>
+      
+      <entities>
+      	<cacheEntity name="CommandCacheRuleEntity" type="CCube.Core.Entity.CommandCacheRuleEntity,CCube.Core" ></cacheEntity>
+
+      	<!-- IDENTITY -->
+        <cacheEntity name="TokenEntity" type="CCube.Identity.Entity.Tactical.TokenEntity,CCube.Identity.International" ></cacheEntity>
+
+        <!-- GROCERY -->
+        <cacheEntity name="BasketMetadata" type="CCube.Grocery.Entity.Tactical.BasketMetadata,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="BuyListDetailEntity" type="CCube.Grocery.Entity.Tactical.BuyListDetailEntity,CCube.Grocery.International"></cacheEntity>
+        <cacheEntity name="BuyListProductItemEntity" type="CCube.Grocery.Entity.Tactical.BuyListProductItemEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="BuyListSortEntity" type="CCube.Grocery.Entity.Tactical.BuyListSortEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="CollectionPointStorageEntity" type="CCube.Grocery.Entity.Tactical.CollectionPointStorageEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="BuyListPromotionEntity" type="CCube.Grocery.Entity.Tactical.BuyListPromotionEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductDetailEntity" type="CCube.Grocery.Entity.Tactical.ProductDetailEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductDetailSectionEntity" type="CCube.Grocery.Entity.Tactical.ProductDetailSectionEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductDetailPromotionEntity" type="CCube.Grocery.Entity.Tactical.ProductDetailPromotionEntity,CCube.Grocery.International" ></cacheEntity>       
+        <cacheEntity name="ProductCategorySummaryEntity" type="CCube.Grocery.Entity.Tactical.ProductCategorySummaryEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductCategorySortEntity" type="CCube.Grocery.Entity.Tactical.ProductCategorySortEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductCategoryFacetEntity" type="CCube.Grocery.Entity.Tactical.ProductCategoryFacetEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductCategoryPromotionEntity" type="CCube.Grocery.Entity.Tactical.ProductCategoryPromotionEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductEntity" type="CCube.Grocery.Entity.Tactical.ProductEntity,CCube.Grocery.International" ></cacheEntity>       
+        <cacheEntity name="RestOfShelfSummaryEntity" type="CCube.Grocery.Entity.Tactical.RestOfShelfSummaryEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="RestOfShelfFacetEntity" type="CCube.Grocery.Entity.Tactical.RestOfShelfFacetEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="RestOfShelfPromotionEntity" type="CCube.Grocery.Entity.Tactical.RestOfShelfPromotionEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="RestOfShelfProductEntity" type="CCube.Grocery.Entity.Tactical.RestOfShelfProductEntity,CCube.Grocery.International" ></cacheEntity>
+
+        <cacheEntity name="FavouriteProductEntity" type="CCube.Grocery.Entity.Tactical.FavouriteProductEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="FavouriteProductSortEntity" type="CCube.Grocery.Entity.Tactical.FavouriteProductSortEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="FavouritePromotionFlattenedEntity" type="CCube.Grocery.Entity.Tactical.FavouritePromotionFlattenedEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="FavouriteFacetCategoryEntity" type="CCube.Grocery.Entity.Tactical.FavouriteFacetCategoryEntity,CCube.Grocery.International" ></cacheEntity>
+		<cacheEntity name="FavouriteSummaryEntity" type="CCube.Grocery.Entity.Tactical.FavouriteSummaryEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="RangeEntity" type="CCube.Grocery.Entity.Tactical.RangeEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductBySpecialOffersEntity" type="CCube.Grocery.Entity.Tactical.ProductBySpecialOffersEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductSpecialOfferSortEntity" type="CCube.Grocery.Entity.Tactical.ProductSpecialOfferSortEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductSpecialOfferFacetCategoryEntity" type="CCube.Grocery.Entity.Tactical.ProductSpecialOfferFacetCategoryEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductSpecialOfferPromotionEntity" type="CCube.Grocery.Entity.Tactical.ProductSpecialOfferPromotionEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductSpecialOfferPageSummaryEntity" type="CCube.Grocery.Entity.Tactical.ProductSpecialOfferPageSummaryEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ListProductsByOfferEntity" type="CCube.Grocery.Entity.Tactical.ListProductsByOfferEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductOfferFacetCategoryEntity" type="CCube.Grocery.Entity.Tactical.ProductOfferFacetCategoryEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ListSpecialOffersMenuFacetEntity" type="CCube.Grocery.Entity.Tactical.ListSpecialOffersMenuFacetEntity,CCube.Grocery.International" ></cacheEntity>
+        <cacheEntity name="ProductOfferPromotionEntity" type="CCube.Grocery.Entity.Tactical.ProductOfferPromotionEntity,CCube.Grocery.International" ></cacheEntity>
+      </entities>
+
+      <business name="grocery">
+      <command name="ReserveSlot" type="CCube.Grocery.Commands.Tactical.ReserveSlotConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="ReadyForCheckout" type="CCube.Grocery.Commands.Tactical.ReadyForCheckoutConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+      <command name="GetOrderDetails" type="CCube.Grocery.Commands.Tactical.GetOrderDetailsConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="ChangeBasket" type="CCube.Grocery.Commands.Tactical.ChangeBasketConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+      <command name="AmendOrder" type="CCube.Grocery.Commands.Tactical.AmendOrderConnectorCommand,CCube.Grocery.International" isSecured="true">
+      <cache>
+            <cacheDependents>
+              <cacheGroup ref="ProductGroup" />
+            </cacheDependents>
+        </cache>
+	  </command>
+      <command name="CancelOrder" type="CCube.Grocery.Commands.Tactical.CancelOrderConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="CancelAmendOrder" type="CCube.Grocery.Commands.Tactical.CancelAmendOrderConnectorCommand,CCube.Grocery.International" isSecured="true">
+      	  <cache>
+            <cacheDependents>
+              <cacheGroup ref="ProductGroup" />
+            </cacheDependents>
+          </cache>
+      </command>
+      <command name="SaveAmendOrder" type="CCube.Grocery.Commands.Tactical.SaveAmendOrderConnectorCommand,CCube.Grocery.International" isSecured="true">
+        <cache>
+            <cacheDependents>
+              <cacheGroup ref="ProductGroup" />
+            </cacheDependents>
+          </cache>
+      </command>
+      <command name="DefaultDeliveryAddress" type="CCube.Grocery.Commands.Tactical.DefaultDeliveryAddressConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+      <command name="ListCollectionPoints" type="CCube.Grocery.Commands.Tactical.ListCollectionPointsConnectorCommand,CCube.Grocery.International" isSecured="true">
+        <cache type="absolute" value="05:00:00" mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="CollectionPointStorageEntity" />
+          </cacheEntities>
+        </cache>
+      </command>
+      <command name="ProductSearch" type="CCube.Grocery.Commands.Tactical.ProductSearchConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="ListCollectionSlots" type="CCube.Grocery.Commands.Tactical.ListCollectionSlotsConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="DeliverySlots" type="CCube.Grocery.Commands.Tactical.DeliverySlotsConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="ListBasket" type="CCube.Grocery.Commands.Tactical.ListBasketConnectorCommand,CCube.Grocery.International" isSecured="true">
+         <cache mode="Disk">
+            <cacheDependents>
+            </cacheDependents>
+            <cacheEntities>
+              <cacheEntity ref="BasketMetadata" />
+            </cacheEntities>
+          </cache>
+      </command>
+      <command name="BasketSummary" type="CCube.Grocery.Commands.Tactical.BasketSummaryConnectorCommand,CCube.Grocery.International" isSecured="true">
+          <cache mode="Disk">
+            <cacheDependents>
+            </cacheDependents>
+            <cacheEntities>
+              <cacheEntity ref="BasketMetadata" />
+            </cacheEntities>
+          </cache>
+        </command>
+		<command name="GetCollectionPointAddress" type="CCube.Grocery.Commands.Tactical.GetCollectionPointAddressConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+        <command name="BasketGuide" type="CCube.Grocery.Commands.Tactical.BasketGuideConnectorCommand,CCube.Grocery.International" isSecured="true">
+           <cache mode="Disk">
+            <cacheDependents>
+            </cacheDependents>
+            <cacheEntities>
+              <cacheEntity ref="BasketMetadata" />
+            </cacheEntities>
+          </cache>
+        </command>
+      <command name="BuyList" type="CCube.Grocery.Commands.Tactical.BuyListConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+        <cache type="absolute" value="05:00:00" mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="BuyListDetailEntity" />
+            <cacheEntity ref="BuyListProductItemEntity" />
+            <cacheEntity ref="BuyListPromotionEntity" />
+            <cacheEntity ref="BuyListSortEntity" />
+          </cacheEntities>
+        </cache>
+      </command>
+      <command name="FavouriteList" type="CCube.Grocery.Commands.Tactical.FavouriteListConnectorCommand,CCube.Grocery.International" isSecured="true">
+          <cache type="absolute" value="05:00:00" mode="Disk">
+            <cacheEntities>
+              <cacheEntity ref="FavouriteProductEntity" />
+              <cacheEntity ref="FavouriteProductSortEntity" />
+              <cacheEntity ref="FavouritePromotionFlattenedEntity" />
+              <cacheEntity ref="FavouriteFacetCategoryEntity" />
+              <cacheEntity ref="FavouriteSummaryEntity" />
+            </cacheEntities>
+          </cache>
+      </command>
+      <command name="EmptyBasket" type="CCube.Grocery.Commands.Tactical.EmptyBasketConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="ListPendingOrders" type="CCube.Grocery.Commands.Tactical.ListPendingOrdersConnectorCommand,CCube.Grocery.International" isSecured="true" />
+      <command name="ProductList" type="CCube.Grocery.Commands.Tactical.ProductListConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+        <cache type="relative" value="86400" mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="ProductEntity" />
+            <cacheEntity ref="ProductCategorySummaryEntity" />
+            <cacheEntity ref="ProductCategorySortEntity" />
+            <cacheEntity ref="ProductCategoryFacetEntity" />
+            <cacheEntity ref="ProductCategoryPromotionEntity" />          
+          </cacheEntities>
+        </cache>
+      </command>
+	  <command name="ListProductsBySpecialOffer" type="CCube.Grocery.Commands.Tactical.ListProductsBySpecialOfferConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+        <cache type="absolute" value="05:00:00" mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="ListProductsBySpecialOfferEntity" />
+            <cacheEntity ref="ProductSpecialOfferPromotionEntity" />
+            <cacheEntity ref="ProductSpecialOfferPageSummaryEntity" />
+            <cacheEntity ref="ProductSpecialOfferSortEntity" />
+            <cacheEntity ref="ProductSpecialOfferFacetCategoryEntity" />
+          </cacheEntities>
+        </cache>
+      </command>
+      <command name="ListProductsByOffer" type="CCube.Grocery.Commands.Tactical.ListProductsByOfferConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+        <cache type="absolute" value="05:00:00" mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="ListProductsByOfferEntity" />
+            <cacheEntity ref="ProductOfferPromotionEntity" />
+            <cacheEntity ref="ProductOfferFacetCategoryEntity" />
+          </cacheEntities>
+        </cache>
+      </command>
+	  <command name="ListProductCategories" type="CCube.Grocery.Commands.Tactical.RangeConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+	      <cache type="absolute" value="05:00:00" mode="Disk">
+	        <cacheDependents>
+	          <cacheGroup ref="ProductGroup" />
+	        </cacheDependents>
+	        <cacheEntities>
+	          <cacheEntity ref="RangeEntity"/>
+	        </cacheEntities>
+	      </cache>
+      </command>
+      <command name="RestOfShelf" type="CCube.Grocery.Commands.Tactical.RestOfShelfConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+        <cache type="relative" value="86400" mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="RestOfShelfProductEntity" />
+            <cacheEntity ref="RestOfShelfSummaryEntity" />
+            <cacheEntity ref="RestOfShelfFacetEntity" />
+            <cacheEntity ref="RestOfShelfPromotionEntity" />
+          </cacheEntities>
+        </cache>
+      </command>
+		<command name="ProductDetail" type="CCube.Grocery.Commands.Tactical.ProductDetailConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+          <cache type="absolute" value="05:00:00" mode="Disk">
+            <cacheEntities>
+              <cacheEntity ref="ProductDetailEntity" />
+              <cacheEntity ref="ProductDetailSectionEntity" />
+              <cacheEntity ref="ProductDetailPromotionEntity" />            
+            </cacheEntities>
+          </cache>
+        </command>
+	  <command name="DeleteFavourite" type="CCube.Grocery.Commands.Tactical.DeleteFavouriteConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+	  <command name="GetChosenSlotInfo" type="CCube.Grocery.Commands.Tactical.ChosenSlotInfoConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+	  <command name="GetAppStatus" type="CCube.Grocery.Commands.Tactical.GetAppStatusConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true" baseURL="https://r.tescolotus.com/api/v2/"/>
+	  <command name="DummyCommand" type="CCube.Grocery.Commands.Tactical.DummyConectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true"/>
+	  <command name="ClearCache" type="CCube.Grocery.Commands.Tactical.ClearCacheConnectorCommand,CCube.Grocery.International" isSecured="true">
+          <cache>
+            <cacheDependents>
+              <cacheGroup ref="ProductGroup" />
+              <command ref="ListProductCategories" />
+              <command ref="BasketSummary" />
+              <command ref="ListCollectionPoints" />
+            </cacheDependents>
+          </cache>
+      </command>
+	  <command name="JustChecking" type="CCube.Grocery.Commands.Tactical.JustCheckingConnectorCommand,CCube.Grocery.International" isSecured="true"/>
+	  <command name="ListSpecialOffersMenu" type="CCube.Grocery.Commands.Tactical.ListSpecialOffersMenuConnectorCommand,CCube.Grocery.International" anonymous="true" isSecured="true">
+          <cache type="absolute" value="05:00:00" mode="Disk">
+            <cacheEntities>
+              <cacheEntity ref="ListSpecialOffersMenuFacetEntity" />
+            </cacheEntities>
+          </cache>
+     </command>
+	</business>
+
+	<business name="identity">
+      <command name="GetProfile" type="CCube.Identity.Commands.Tactical.GetProfileConnectorCommand,CCube.Identity.International" isSecured="true"/>
+      <command name="Token" type="CCube.Identity.Commands.Tactical.GetTokenConnectorCommand,CCube.Identity.International" anonymous="true" isSecured="true" baseURL="https://r.tescolotus.com/api/v2/">
+        <cache mode="Disk">
+          <cacheEntities>
+            <cacheEntity ref="TokenEntity" />
+          </cacheEntities>
+        </cache>
+      </command>
+      <command name="Logout" type="CCube.Identity.Commands.Tactical.LogoutConnectorCommand,CCube.Identity.International" isSecured="true"/>
+    </business>
+	  <identityProvider name="ighs" type ="CCube.Identity.Tactical.IdentityProvider,CCube.Identity.International" isSecured="true">
+        <params>
+
+        </params>
+      </identityProvider>
+    </ConnectorConfiguration>   
+  </ConfigurationDetails>
+</CountryConnector>

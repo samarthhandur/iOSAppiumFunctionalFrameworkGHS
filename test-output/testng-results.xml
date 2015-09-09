@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93639" started-at="2015-09-09T10:34:09Z" finished-at="2015-09-09T10:35:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93639" started-at="2015-09-09T10:34:09Z" finished-at="2015-09-09T10:35:42Z">
+      <class name="appiumIOS.appiumTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:appiumIOS.appiumTest@7a75479a]" name="setUp" is-config="true" duration-ms="12688" started-at="2015-09-09T16:04:09Z" finished-at="2015-09-09T16:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addItemsToBasketTest()[pri:0, instance:appiumIOS.appiumTest@7a75479a]" name="addItemsToBasketTest" duration-ms="80066" started-at="2015-09-09T16:04:21Z" finished-at="2015-09-09T16:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToBasketTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumIOS.appiumTest@7a75479a]" name="tearDown" is-config="true" duration-ms="863" started-at="2015-09-09T16:05:41Z" finished-at="2015-09-09T16:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appiumIOS.appiumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

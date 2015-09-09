@@ -1,0 +1,931 @@
+
+"OK" = "OK";
+"Error" = "Error";
+"YES" = "Yes";
+"NO" = "No";
+"RETRY" = "Retry";
+"ADD" = "Add";
+"-" = "-";
+"Try_Again" = "Try again";
+
+"Signing in ..." = "Signing in ...";
+"Amend_Done_Sucessfully" = "Changes to your order have been saved";
+
+"Sign_In" = "Sign in";
+// Signin module strings
+"Signin_Title" = "Sign in";
+"Signin_LoadingMessage" = "Signing in…";
+"Signin_Error_Title" = "We couldn't sign you in";
+"Signin_Forgotpassword" = "Forgot password?";
+"Signin_Register_Title" = "Not registered yet?";
+"Signin_Register" = "Register here";
+"Signin_Forgotten_Password_Title" = "Forgotten Password";
+
+// Registration module strings
+"Registration_Title" = "Register";
+"Registration_BusinessAddress_ChooseError_Message" = "Sorry, we could not process this address. It could be because we do not serve your area or because this is a business address.";
+"Registration_ChooseAddress_Title" = "Choose Address";
+"Registration_ChooseAddress" = "Choose your address";
+"Registration_Error_Title" = "Registration failed!";
+"Registration_LoadingMessage" = "Registering user…";
+"Registration_T&C_Title" = "Tesco Terms & Conditions";
+"Registration_Email_Error" = "Email is not configured on this device";
+"Registration_Email_Sent" = "Have been emailed";
+"Registration_Email" = "Email";
+"Registration_PersonalDetailsHeader" = "Personal details";
+"Registration_AddressDetailsHeader" = "Address details";
+"Registration_ContactDetailsHeader" = "Contact details";
+"Registration_PasswordDetailsHeader" = "Password";
+"Registration_AcceptTC" = "  I accept Tesco Terms & conditions";
+"Registration_ValidName" = "Please enter a valid name";
+"Registration_ErrorDayTime_Message" = "Please enter a valid day time phone number";
+"Registration_ErrorEvening_Message" = "Please enter a valid evening phone number";
+"Registration_ErrorMobileNumber_Message" = "Please enter a valid mobile number";
+"Registration_ErrorAlphaNumeric_Message" = "Enter a valid password which contains alphanumeric characters only";
+"Registration_ErrorPasswordLength_Message" = "Please enter a valid password";
+"Registration_MismatchEmail_Error" = "Mismatch email";
+"Registration_ConfirmPassword_Error_Title" = "Password mismatch!";
+"Registration_ConfirmPassword_Error_Message" = "Your password and confirmation password do not match.";
+"Registration_PasswordStrength" = "Password Strength";
+"Registration_PasswordStrength_Good" = "Good";
+"Registration_Firstname_Placeholder" = "First name";
+"Registration_Lastname_Placeholder" = "Last name";
+"Registration_Nickname_Placeholder" = "Nickname";
+"Registration_Mobilenumber_Placeholder" = "Mobile number (Optional)";
+"Registration_Daynumber_Placeholder" = "Daytime number";
+"Registration_Eveningnumber_Placeholder" = "Evening number";
+"Registration_ConfirmPassword_Placeholder" = "Confirm password";
+"Registration_ScanClucard" = "Scan Clubcard";
+"Registration_ConfirmEmail_Placeholder" = "Confirm email";
+"Registration_Postcode_Placeholder" = "Postcode";
+"Registration_CCNumber_Placeholder" = "Clubcard number";
+"Registration_Requiredfield_Label" = "Required fields";
+"Registration_NoCCButton_Title" = "If you don't have a Clubcard tick this box.";
+"Registration_TC_Link_Label" = "Tesco Terms and Conditions of use";
+"Registration_Privacy_Link_Label" = "Tesco Privacy Policy";
+"Registration_CCT&C_Link_Label" = "Clubcard Terms and Conditions";
+"Registration_Please_enter" = "Please enter ";
+"Registration_ErrorPostcode_Message" = "Please enter valid postcode";
+"Registration_ErrorClubcard_Message" = "Must be a clubcard number";
+"Registration_ErrorEmail_Message" = "Please enter valid email";
+"Registration_AlreadyRegistered_Title" = "Already registered";
+"Registration_AlreadyRegistered_Message" = "The email address {0} has already been registered";
+"Registration_AlreadyRegistered_ForgottenPasswordMessage" = "If you have forgotten your password we can email you a reminder";
+"Registration_AlreadyRegistered_EmailPassword" = "Email my password";
+"Registration_AlreadyRegistered_SignInHere" = "Sign in here";
+"Registration_BusinessAddress_ChooseError_Message" = "Sorry, we could not process this address. It could be because we do not serve your area or because this is a business address.";
+"Registration_Your_Details_Section" = "Your Details";
+"Registration_Your_Clubcard_Section" = "Your Clubcard";
+"Registration_Your_Details_Section" = "Your Details";
+"Registration_Your_Clubcard_Section" = "Your Clubcard";
+"Registration_Password_Rules1" = "Your new password must be at least 8 characters";
+"Registration_Password_Rules2" = "and contain at least 3 of the following:";
+"Registration_Password_Rules3" = "• Uppercase letter (A-Z)";
+"Registration_Password_Rules4" = "• Lowercase letter (a-z)";
+"Registration_Password_Rules5" = "• Number (0-9)";
+"Registration_Password_Rules6" = "• Special character e.g. !, ?, £, $, #";
+
+// Common strings
+"Missed offers" = "Missed offers";
+"Continue_Button_Title" = "Continue";
+"Password_Placeholder" = "Password";
+"Email_Placeholder" = "Email address";
+"Home" = "Home";
+"Shop_All_Grocery" = "Browse all groceries";
+"Book_a_slot" = "Book a slot";
+"My_orders" = "My orders";
+"Last_Order" = "Last Order";
+"Favourites_Title" = "Favourites";
+"Favourites_title_LHN"="Favourites & usuals";
+"No_Products_Found_Message" = "No Products Found";
+"Downloading_products_Message" = "Downloading products...";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"Checkout" = "Checkout";
+"Loading" = "Loading...";
+"Tesco_Title" = "Tesco";
+"Avocado_JustChecking" = "Just Checking";
+"Groceries" = "Groceries";
+"Loading Shop..." = "Loading Shop...";
+"Slot booked" = "Slot booked";
+"FavouriteHubTableErrorMessage" = "Error, unable to load";
+//common network
+"TESCO_UI_NETWORK_UNAVAILABLE" = "Network unavailable";
+
+// Shop strings
+"Shop" = "Shop";
+"Departments" = "Departments";
+"Loading Departments..." = "Loading Departments...";
+"Aisles" = "Aisles";
+"Loading Aisles ..." = "Loading Aisles ...";
+"Avocado_Shop_Error_Message" = "Data temporarily unavailable";
+"Avocado_Shop_all_categories_Header" = "Browse all groceries";
+"Avocado_Shop_all_categories" = "All categories";
+//Book a slot
+"Avocado_Click_and_Collect_Title" = "Click & Collect";
+"Avocado_Click_and_Collect" = "Click & Collect";
+"Avocado_Home_delivery" = "Home delivery";
+"Avocado_Home_Delivery_Caps" = "Home Delivery";
+"Avocado_Slot_Unavailable" = "Unavailable";
+"Avocado_Choose_Address_Button_Title" = "or choose address";
+"Avocado_Collection_Points_Header" = "NEAREST COLLECTION POINTS";
+"Avocado_Morning_Header" = "MORNING";
+"Avocado_Afternoon_Header" = "AFTERNOON";
+"Avocado_Change_Button_Title" = "Change";
+"Avocado_Book_Slot_Title" = "Book this slot";
+"Avocado_Book_Slot_Amend_Title" = "Book new slot";
+"Minimum_Basket_Charge" = "Minimum basket charge";
+"Avocado_Slot_Reserved" = "Slot reserved";
+"Avocado_Slot_Reserved_Message_Section1" = "Please checkout your order by ";
+"Avocado_Slot_Reserved_Message_Section2" = " to ensure you don't lose the slot.";
+"Avocado_Points_Error_Title" = "No collection points found";
+"Avocado_Points_Error_Message" = "Please try entering another postcode or choose another address";
+"Avocado_Reserving_Slot_Title" = "Reserving slot";
+"Avocado_Change_Slot_Type_Warning_Title" = "Please note";
+"Avocado_Change_Slot_Delivery_Warning_Message" = "You will lose your delivery slot reservation if you change to a collection.\nWould you like to change to a collection?";
+"Avocado_Change_Slot_Collection_Warning_Message" = "You will lose your collection slot reservation if you change to a delivery.\nWould you like to change to a delivery?";
+"Avocado_Unable_To_Book_Message" = "Sorry we were unable to book your selected slot";
+"Avocado_Slot_Reserved_Message2" = "You can change this slot before and after checkout up until the evening before the day of your reservation.";
+"Add_New_Address_AddressDetailsHeader" = "Address details";
+"Add_New_Address_ContactDetailsHeader" = "Contact details";
+"Add_New_Address_Please_select_property_type" = "Please select property type";
+"Add_New_Address_Please_select_address" = "Please select address";
+"Add_New_Address_title" = "Add new address";
+"Add_New_Address_Nickname" = "Address nickname";
+"Add_New_Address_SearchTextField_namespace" = "Postcode";
+"Add_New_Address_Instruction" = "Please enter your postcode below to check if we deliver to this address";
+"Add_New_Address_Done" = "Done";
+"Add_New_Address_Choose_Address" = "Choose Address";
+"Add_New_Address_Choose_Property" = "Choose property type";
+"Avocado_Change_Address_Button_Title" = "Change address";
+"Avocado_Change_Store_Button_Title" = "Change store";
+"AVOCADO_TO_LABEL" = "To:";
+"AVOCADO_SELECTED_TIMESLOT_LABEL" = "Selected timeslot:";
+"AVOCADO_RESERVED_TIMESLOT_LABEL" = "Reserved timeslot:";
+"AVOCADO_SLOT_RESERVED_LABEL1" = "Slot reserved";
+"AVOCADO_SLOT_RESERVED_LABEL2" = "Your slot has been reserved:";
+"AVOCADO_DELIVER_TO_LABEL" = "Delivery to:";
+"AVOCADO_COLLECT_FROM_LABEL" = "Collect from:";
+"AVOCADO_BETWEEN_LABEL" = "Between:";
+"AVOCADO_SERVICE_CHARGE_LABEL" = "Service charge:";
+"AVOCADO_CHECKOUT_WITHIN_LABEL" = "Please checkout your order by {0} to ensure you don't lose the slot.";
+"AVOCADO_CURRENT_SLOT_LABEL" = "Current slot: ";
+"AVOCADO_NEW_SLOT_LABEL" = "       New slot booked: ";
+"AVOCADO_NEW_SLOT_SELECTED_LABEL" = "       Newly selected slot: ";
+"AVOCADO_IPAD_DELIVERY_MESSAGE" = "I'd like to have my groceries delivered";
+"AVOCADO_IPAD_COLLECTION_MESSAGE" = "I'd like to collect my groceries from a store";
+"AVOCADO_IPAD_RESERVED_LABEL" = "Reserved";
+"AVOCADO_IPAD_FAILED_LOADING_SLOTS_MESSAGE" = "Unable to load timeslots for {0}";
+"AVOCADO_IPAD_PLEASE_TRY_AGAIN_MESSAGE" = "Please try again later.";
+"From_Label_Text" = "From";
+"Price_Label_Text" = "£1";
+"Free_Label_Text" = "Free";
+
+// Basket Strings
+"Avocado_Basket_Title" = "Basket";
+"Avocado_EmptyBasket_Alert_Title" = "";
+"Avocado_EmptyBasket_Message" = "Are you sure you want to empty your basket? ";
+"Avocado_Empty" = "Empty";
+"Avocado_Empty_basket" = "Empty basket";
+"Avocado_Your_Basket_Is_Empty" = "Your basket is empty";
+"Avocado_Offer_PLP_Header_In_Basket_Flow"="Offer";
+
+"Avocado_Substitution_Text" = "Substitute item?";
+"Avocado_PickerNote_Text" = "Picker note";
+"Avocado_PickerNoteInstruction_Text" = "Would you like to leave any instructions for your personal shopper?";
+"Avocado_PickerNoteHintText" = "e.g. Only ripe bananas.";
+"Avacado_GuidePriceHelpText" = "Why the price you pay may be different to the website price:\n\n '\u2022 The price may vary between order time and delivery timer.\n\n \\u2022 Prices of weighed items (like fruit and vegetables) and pre-packed weight items(like meat, poultry and cheese) will vary slightly from what's on the website.\n\n \\u2022 Unavailable items will need to be substituted.\n\nAll prices are expressed inclusive of any VAT payable unless otherwise stated. The rate of VAT is 20%.\n\n When your order is delivered you may return any item and receive a full refund if you consider that the difference between the price charged and the guide price shown on the grocery website is unacceptable.";
+"Avacado_GuidePriceHelpTextPopUpTitle" = "About Guide Price";
+"Avocado_iPad_SubstituteAll_Instruction" = "Would you like us to provide a suitable substitute if what you ordered isn’t available?";
+"Avocado_iPad_Substitute_Instruction" = "Would you like us to provide a suitable substitute if this item isn’t available?";
+"Avocado_iPad_SubstituteAll_ButtonTitle" = "Substitute products";
+"Avocado_iPad_Substitute_ButtonTitle" = "Substitute";
+"Avocado_iPad_SubstituteNone_ButtonTitle" =  "Don't substitute";
+"Avocado_iPad_EmptyBasket_instructionOne" =  "Your basket is empty";
+"Avocado_iPad_EmptyBasket_instructionTwo" = "You can shop for items via your favourites, shop all groceries or search.";
+"Avocado_iPad_ContinueShoping_ButtonTitle" = "Continue shopping";
+"Avocado_iPad_PickerInstructionText" ="Would you like to leave any specific instruction for your personal shopper?";
+"Avocado_iPad_PickerNoteDone_ButtonTitle" = "Add note";
+"Avocado_iPad_PickerNoteDone_ButtonTitle_Save" = "Save note";
+"Avocado_iPad_PickerNoteDone_ButtonTitle_Delete" = "Delete note";
+
+"Avacado_SubstitutionHelpMessage1" = "What should we do if any of the products in your order are unavailable?\n\n";
+"Avacado_SubstitutionHelpMessage2" = "Select \"";
+"Avacado_SubstitutionHelpMessage3" = "Substitute products";
+"Avacado_SubstitutionHelpMessage4" = "\" and we will provide suitable alternatives for unavailable items. We will only charge you the price of the item you have ordered (excludes some promotions). If you don\'t want the substituted item, hand it back for a full refund.\n\nSelect \""; 
+"Avacado_SubstitutionHelpMessage5" = "Don't substitute";
+"Avacado_SubstitutionHelpMessage6" = "\"and we won\'t provide alternatives for unavailable items.";
+
+"Avocado_Basket_iPad_Title" = "Your shopping basket";
+"Avocado_Basket_iPad_ReplaceButtonTitle" = "Replace";
+ "Avocado_Basket_iPad_DontReplaceButtonTitle" = "Don't replace";
+"Avocado_Basket_iPad_Footer_ErrorInstructionTitle" = "Sorry, unable to retrieve slot";
+"Avocado_AmendBar_iPad_Footer_ErrorInstructionTitle" = "Sorry, unable to retrieve information";
+
+//Substitute and Picker Note iPhone
+"Substitution_Button_Title" = "Subs";
+"Pickernote_Button_Title" = "Notes";
+"Pickernote_View_Title" = "Would you like to leave any instructions for your personal shopper?";
+"Apply_Button" = "Apply";
+"Substitute_View_Title" = "Substitutions";
+"Substitution_Title" = "What should we do if any of the products you order are unavailable?";
+"Substitution_HelpMessage1" = "Select ";
+"Substitution_HelpMessage2" = "\'Suitable products\' ";
+"Substitution_HelpMessage3" = "and we will provide suitable alternatives for unavailable items. We will only charge you the price of the item you have ordered (excludes promotion) if you don\'t want the substituted item, hand it back for a full refund.";
+"Substitute_Item_Title" = "Would you like us to provide a suitable substitute if this item isn't available?";
+"Avocado_AddPickerNote_Text" = "Add Picker note";
+"Avocado_SubstituteProcuct_Text" = "Substitute product";
+"Substitute_Title" = "Substitute";
+"Delete_Buttontitle" = "Delete";
+
+//PDP
+"Avocado_Storage_Title" = "Storage";
+"Avocado_Ingredients_Title" = "Ingredients";
+"Avocado_TypicalValues_Title" = "Typical Values";
+"Avocado_Nutrition_Title" = "Nutrition";
+"Avocado_100gContains_Title" = "100g Contains";
+"Avocado_ProductDetails_Title" = "Product Details";
+"Avocado_Calories" = "Calories";
+"Avocado_Sugar" = "Sugar";
+"Avocado_Fat" = "Fat";
+"Avocado_Saturates" = "Saturates";
+"Avocado_Salt" = "Salt";
+ "Avocado_ProductInfo_Title"="Product Info";
+
+//My favourites
+"Avocado_MyFavourites_Title" = "My favourites";
+"Avocado_Why_not_try_message" = "Why not try";
+"Unavailable_Message" = "Unavailable";
+"Avocado_Favourites_Title_Caption" = "Save time  by shopping with lists";
+"Avocado_Favourites_Caption" = "Items I've bought online or in-store";
+"Avocado_MyUsuals_Caption" = "Items I regularly buy online";
+"Avocado_My_usuals_Title" = "My usuals";
+"Avocado_My_Recent_Orders_Title" = "MY RECENT ORDERS";
+
+//LHN - Left Hand Navigation
+"LHN_Add_your_Clubcard" = "Add your Clubcard";
+"LHN_CLUBCARD_POINTS" = "Clubcard";
+"LHN_View_your_Clubcard" = "View your Clubcard";
+"LHN_Store_finder" = "Store locator";
+"LHN_Recipes" = "Recipes";
+"LHN_Real_food" = "Real Food";
+"LHN_Smartlists" = "Smartlists";
+"LHN_Direct" = "Tesco direct";
+"LHN_Clothing" = "F&F clothing";
+"LHN_Wine_bythe_case" = "Wine by the case";
+"LHN_BlinkBox_Music" = "blinkbox music";
+"LHN_BlinkBox_Movies" = "blinkbox movies";
+"LHN_Other_Tesco_Products" = "Other Tesco Products";
+"LHN_GROCERIES" = "GROCERIES";
+"LHN_OTHER_TESCO_APPS" = "MORE FROM TESCO";
+"LHN_ABOUT_THIS_APP" = "ABOUT THIS APP";
+"LHN_Help_And_Support" = "Help & about";
+"LHN_Sign_out" = "Sign out";
+"LHN_Saltation_Hello" = "Hello";
+"LHN_Confirm_sign_out_Message" = "Confirm sign-out";
+"LHN_Sign_out_Button" = "Sign-out";
+"LHN_Alert_Message_leaving_the_App"="This option will take you out of the Tesco Groceries app";
+"LHN_BlinkBox_Books" = "blinkbox books";
+//SortFilter
+"Avocado_Sort_by_Title" = "Sort by";
+"Avocado_Default" = "Default";
+"Avocado_Low_to_High" = "Price: Low to High";
+"Avocado_High_to_Low" = "Price: High to Low";
+"Avocado_A_t0_Z" = "A - Z";
+"Avocado_Z_to_A" = "Z - A";
+"Avocado_Filter_by_Title" = "Filter by";
+"Avocado_Filter_by_Section_Header" = "Show products that are";
+"Avocado_Special_offers" = "Special offers";
+"Avocado_New_products" = "New products";
+"AVOCADO_FILTERS_FAVOURITES" = "Favourites";
+"AVOCADO_FILTERS_ALL" = "All";
+
+// MY Orders string
+"Avocado_MyOrders_Empty_Message" = "You currently have no orders";
+ "Avocado_PreviousOrder_Empty_Message" = "Your recent orders will be displayed here";
+ 
+"Avocado_MyOrders_Shop_Button_Title" = "Shop now";
+"Avocado_Orderdetails_Title" = "Order";
+"Avocado_Offers_Title" = "Offers";
+"Avocado_CancelOrder_AlertMessage" = "Are you sure you want cancel the order.";
+"Avocado_Available_After_Your_SecondOrder" = "Available after your second order";
+"Avocado_Available_After_Your_FirstOrder" = "Available after your first order";
+"Avocado_MyOrders_Cancel_Button_Title" = "Cancel";
+"Avocado_MyOrders_Amend_Button_Title" = "Make changes";
+"AVOCADO_ORDER_GUIDE_PRICE_LABEL" = "Guide price:";
+ "AVOCADO_iPad_NOORDER_TEXT" = "Your previous orders will appear here";
+
+// BasketHeader view
+"AVOCADO_HEADER_BASKET_GUIDEPRICE_TITLE" = "GUIDE PRICE";
+"AVOCADO_HEADER_BASKET_ITEMS_TITLE" = "ITEMS";
+"AVOCADO_HEADER_BASKET_MAX_TEXT" = "1000+";
+
+// Search header
+"AVOCADO_HEADER_SEARCH_LABEL" = "Search";
+"AVOCADO_SEARCH_HISTORY_HEADER" = "MY FREQUENT SEARCHES";
+"AVOCADO_SEARCH_RESULTS_LABEL" = "results";
+"AVOCADO_SEARCH_BARCODE_HEADER" = "Barcode scanner";
+"AVOCADO_SEARCH_CLEAR_ALL_HISTORY_MESSAGE" = "Are you sure you want to clear your search history?";
+"AVOCADO_SCAN_RESULT_TITLE" = "Scan result";
+"SEARCHSTRINGFORMAT" = "Search for \"{0}\"";
+
+//HomeDeliveryAndCC
+"LIST_DELIVERY_ADDRESS_INSTRUCTION" = "Changing your address might mean that promotions, your delivery slot and products in your basket are no longer available.";
+"CHOOSE_AN_ADDRESS" = "Choose an address";
+"ADD_NEW_ADDRESS" = "Add new address";
+
+//Just Checking
+"AVOCADO_JUST_CHECKING_UNAVAILABLE" =  "UNAVAILABLE ITEMS";
+"AVOCADO_JUST_CHECKING_MISSED_PROMOTIONS" = "MISSED PROMOTIONS";
+"AVOCADO_REST_OF_SHELF_HEADER" = "Choose an item";
+"AVOCADO_IPAD_REST_OF_SHELF_HEADER" = "Choose a different item";
+"AVOCADO_IPAD_REST_OF_SHELF_GRID_HEADER" = "{0} is not available. Please choose a different item:";
+"AVOCADO_JUST_LET_YOU_KNOW" = "Just to let you know";
+"AVOCADO_CHOOSE_DIFFERENT_ITEMS" = "Choose a different item";
+"JustCheckin_Inline_Title" = "You're all set";
+"JustCheckin_Inline_Message" = "Please tap 'Continue' to proceed with your order";
+"JustCheckin_No_Slot_Reserved" = "No slot reserved.";
+"JustCheckin_Basket_Empty" = "Basket is empty.";
+"Product_Failed_To_Add_Remove" = "Sorry, you can not add or remove this product at this time";
+"Just_Checking_iPad_Unavailable" = "Unavailable";
+
+"JustCheckiniPad_Inline_Message" = "Please tap 'Continue to checkout' to proceed with your order";
+"JustCheckiniPadProgressMessageTitle" = "Please wait";
+"JustCheckiniPadProgressMessageText" = "Just checking all is in order";
+
+"Just_Checking_iPad_Unavailable_Section_Title" = "We are sorry,";
+"Just_Checking_iPad_Unavailable_Section_Message" = "the products listed below are unavailable";
+
+"Just_Checking_iPad_Promotion_Section_Title" = "Just to let you know,";
+"Just_Checking_iPad_Promotion_Section_Message" = "the products listed below have missed promotions";
+
+"Just_Checking_iPad_Rest_Of_Shelf" = "Choose a different item";
+
+//Favourites Hub
+"AVOCADO_FAVOURITES_SUB_HEADER" = "Your previous orders will appear here";
+"AVOCADO_FAVOURITES_FAIL_MESSAGE" = "Unable to retrieve favourites";
+"AVOCADO_USUALS_FAIL_MESSAGE" = "Unable to retrieve usuals";
+"AVOCADO_ORDERS_FAIL_MESSAGE" = "Unable to retrieve recent orders";
+"AVOCADO_IPAD_FAVOURITES_ITEMS_COUNT_MESSAGE" = "I've bought online or instore ";
+"AVOCADO_IPAD_USUALS_ITEMS_COUNT_MESSAGE" = "I regularly buy online ";
+"AVOCADO_IPAD_FAVOURITES_ITEMS_DEFAULT_COUNT_MESSAGE" = "I've bought online or instore (0 items)";
+"AVOCADO_IPAD_USUALS_ITEMS_COUNT_DEFAULT_MESSAGE" = "I regularly buy online (0 items)";
+
+//Amend order
+"AVOCADO_CANCEL_AMEND_ORDER_MESSAGE" = "Do you want to cancel changes to this order?";
+"AVOCADO_SAVE_AMEND_ORDER_MESSAGE" = "Do you want to save changes to this order?";
+"AVOCADO_SAVE_NEW_VALUE_MESSAGE" = "New value: ";
+"AVOCADO_CANCELLING_AMEND_ORDER_MESSAGE" = "Cancelling changes to your order";
+"AVOCADO_SAVING_AMEND_ORDER_MESSAGE" = "Saving changes to your order";
+"AVOCADO__AMEND_CANCEL_CHANGES" = "Cancel changes";
+"AVOCADO__AMEND_SAVE_CHANGES" = "Save changes";
+"AVOCADO__AMEND_MAKING_CHANGES" = "Making changes: ";
+"AVOCADO__CANCEL_ORDER" = "Cancelling this order will release the delivery or collection slot and remove the order from your history. Are you sure you want to cancel your order?";
+"AVOCADO_IPAD_AMEND_MAKING_CHANGES_LABEL" = "You are making changes: ";
+"AVOCADO_IPAD_AMEND_SAVE_BY_MESSAGE_FORMAT" = "Save by {0} on {1}";
+"AVOCADO_IPAD_AMEND_HOME_DELIVERY_TO_LABEL" = "Delivery to ";
+"AVOCADO_IPAD_AMEND_COLLECTION_FROM_LABEL" = "Collect from ";
+"AVOCADO_IPAD_AMEND_CHANGE_DELIVERY_SLOT_LABEL" = "Change delivery slot";
+"AVOCADO_IPAD_AMEND_CHANGE_COLLECTION_SLOT_LABEL" = "Change collection slot";
+
+//Dashboard
+"DASHBOARD_SLOT_NETWORK_ERROR" = "Sorry, we can't find a connection.\nPlease check your network or connect to Wi-Fi.";
+
+"DASHBOARD_FAVOURITES_NETWORK_ERROR" = "Could not retrieve your favourites as you are currently offline";
+"DASHBOARD_FAVOURITES_NO_FAVOURITES" = "After your first order your favourites will be waiting for you here.";
+
+"DASHBOARD_SLOT_RESERVED_HEADER" = "Slot reserved";
+"DASHBOARD_NO_SLOT_BOOKED_HEADER" = "No slot booked";
+"DASHBOARD_NO_SLOT_BOOKED_PROMPT" = "Book a slot now to secure a time\rconvenient for you";
+"DASHBOARD_NO_SLOT_BOOKED_BUTTON" = "Book a slot";
+"DASHBOARD_BOOK_SLOT_TITLE_MESSAGE" = "Why not book a slot?"; 
+"DASHBOARD_CHECKOUT_PROMPT" = "Please checkout by {0} to ensure you don't lose your slot";
+"DASHBOARD_ORDER_PLACED_TITLE_MESSAGE" = "Your order is placed";
+"DASHBOARD_ORDER_DUE_TITLE_MESSAGE" = "Your order is due";
+
+"DASHBOARD_CHECKOUT_MESSAGE_1" = "Please checkout by ";
+"DASHBOARD_CHECKOUT_MESSAGE_2" = " to ensure you\rdon't lose your slot";
+"DASHBOARD_AMEND_CHECKOUT_MESSAGE_1" = "Please save these changes by ";
+"DASHBOARD_AMEND_CHECKOUT_MESSAGE_2" = " to ensure\ryou don't lose your slot";
+
+"DASHBOARD_PENDING_ORDER_HEADER" = "Order placed";
+
+"DASHBOARD_AMEND_MODE_HEADER" = "Slot reserved";
+"DASHBOARD_AMEND_ORDER_BUTTON" = "Make changes";
+"DASHBOARD_CHANGE_SLOT_BUTTON" = "Change slot";
+
+"DASHBOARD_OFFER_FILTER_TITLE" = "Products on offer";
+"DASHBOARD_SHOP_ALL_GROCERIES" = "Browse all groceries";
+"DASHBOARD_SIGN_IN" = "Sign in";
+"DASHBOARD_SIGN_REGISTER" = "Register";
+"DASHBOARD_CHECKOUT_BUTTON" = "Checkout";
+
+"DASHBOARD_OFFERS_TOPOFFERS_LABEL" = "Top offers";
+"DASHBOARD_OFFERS_HALFPRICE_LABEL" = "Half price";
+"DASHBOARD_OFFERS_ONLY1_LABEL" = "Only £1";
+"DASHBOARD_VIEW_ALL" = "View all";
+"DASHBOARD_SHOP_SPECIAL_OFFERS" = "Shop special offers";
+"DASHBOARD_SHOP_YOUR_FAVORITES" = "Shop your favourites";
+"DASHBOARD_FRESHNESS_MESSAGE_TITLE" = "Our Freshness Guarantee";
+"DASHBOARD_FRESHNESS_MESSAGE_DETAIL" = "We'll refund any items you are not happy with in this order";
+
+"AVOCADO_SPECIAL_OFFERS_EMPTY_MESSAGE_FORMAT" = "There are no {0} available at this time";
+
+//Clubcard Registration
+"Dont_have_clubcard_text" = "Don't have a Clubcard?";
+"Join_Clubcard_Buttontitle" = "Join Clubcard";
+"Add_Clubcard_Buttontitle" = "Add Clubcard";
+"Remove_Card_Buttontitle" = "Remove card";
+"Save_Buttontitle" = "Save";
+"AVOCADO_CLUBCARD_REMOVE_CARD_MESSAGE" = "Are you sure you want to remove this Clubcard?";
+"AVOCADO_CLUBCARD_ERROR_MESSAGE" = "Please enter a valid clubcard number.";
+
+//Clubcard
+"AVOCADO_CLUBCARD_POINTS_MESSAGE" = "Points total:";
+"AVOCADO_CLUBCARD_VALUE_MESSAGE" = "Value in Clubcard vouchers:";
+"AVOCADO_CLUBCARD_POINTS_TEXT" = "points";
+"AVOCADO_CLUBCARD_WELCOME_MESSAGE" = "Hello";
+"AVOCADO_CLUBCARD_CHANGE_MESSAGE" = "You can use this digital Clubcard in selected stores.";
+"AVOCADO_CLUBCARD_CHANGE_TEMPORARY_MESSAGE" = "You can use this digital Temporary Clubcard in selected stores.";
+"AVOCADO_CLUBCARD_CHANGE_BUTTON_TITLE" = "Change Clubcard";
+"AVOCADO_CLUBCARD_MOBILE_SITE_LAUNCH_TITLE" = "Visit the Clubcard mobile site";
+"AVOCADO_CLUBCARD_CHANGE_PRIVILEGE_MESSAGE" = "This app is set up with a Privilege card number. If you would like to scan your Clubcard in-store using this app, please call 0800 59 16 88 to get a standard Clubcard linked to your account.";
+"AVOCADO_CLUBCARD_CHANGE_PRIVILEGE_MESSAGE_MOBILE_NUMBER" = "0800 59 16 88";
+"CLUBCARD_REGISTRATION_ALERT_EDIT_BUTTONTITLE" = "Change details";
+"CLUBCARD_REGISTRATION_ALERT_CONTINUE_BUTTONTITLE" = "Continue";
+"CLUBCARD_REGISTRATION_TITLE" = "Add your Clubcard";
+"CLUBCARD_SALUTATION" = "Hello";
+
+//Checkout
+"AVOCADO_CHECKOUT_CANCEL_CONFIRMATION" = "Are you sure you want to cancel checkout?";
+"AVOCADO_CHECKOUT_DONE_OR_SLOT_EXIRED" = "It appears either your checkout has been completed or your slot has expired";
+"AVOCADO_CHECKOUT_ERROR" = "Sorry, there was a problem with Checkout. Please try again";
+
+
+//Onboarding
+"NEXT" = "Next";
+"OK_GOT_IT" = "Ok, got it";
+
+ //Buylists
+"AVOCADO_BUYLIST_DEFAULT_TITLE" = "Seasonal Products";
+"AVOCADO_BUYLIST_EMPTY_MESSAGE" = "Sorry, we couldn't find any Seasonal Products";
+
+//network
+"NETWORK_ERROR" = "Network error";
+"NETWORK_UNAVAILABLE" = "Network unavailable";
+ 
+//Error
+"LISTPRODUCTBYCATEGORY_2370" = "Sorry, there are no longer any products in this category."; // Tactical API Error Code 380
+"LISTPRODUCTBYCATEGORY_2230" = "Sorry, there are no longer any products in this category."; // Tactical API Error Code 390
+"LISTPRODUCTBYCATEGORY_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100 
+"LISTPRODUCTBYCATEGORY_2235" = "Please sign in to use this feature."; // Tactical API Error Code 490 
+"LISTPRODUCTBYCATEGORY_2205" = "Your session has expired. Please sign in and try again.";// Tactical API Error Code 110 or 700
+"LISTPRODUCTBYCATEGORY_2250" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 800
+"LISTPRODUCTBYCATEGORY_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+"LISTPRODUCTBYCATEGORY_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+        
+"LISTPRODUCTCATEGORIES_2235" = "Please sign in to use this feature."; // Tactical API Error Code 490
+"LISTPRODUCTCATEGORIES_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+"LISTPRODUCTCATEGORIES_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+
+"CANCELAMENDORDER_2330" = "Your order is no longer in amend mode so we can not cancel those changes."; // Tactical API Error Code 246 or 330
+"CANCELAMENDORDER_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"CANCELAMENDORDER_2250" = "Sorry, we could not cancel your order because our servers are busy."; // Tactical API Error Code 800
+"CANCELAMENDORDER_2255" = "Sorry, we could not cancel your order because our servers are busy."; // Tactical API Error Code 900 or 910
+"CANCELAMENDORDER_2260" = "Sorry, we could not cancel your order because our servers are busy."; // Tactical API Error Code 920
+
+"LISTPENDINGORDERS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTPENDINGORDERS_2250" = "Sorry, we could not retrieve your pending orders because our servers are busy."; // Tactical API Error Code 800
+"LISTPENDINGORDERS_2255" = "Sorry, we could not retrieve your pending orders because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTPENDINGORDERS_2260" = "Sorry, we could not retrieve your pending orders because our servers are busy."; // Tactical API Error Code 920
+
+"CHOOSEDELIVERYSLOT_2350" = "Sorry, that slot is now fully booked. Please choose another slot or try Click & Collect."; // Tactical API Error Code 310
+"CHOOSEDELIVERYSLOT_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"CHOOSEDELIVERYSLOT_2250" = "Sorry, we are experiencing lots of traffic and we could not book that slot right now."; // Tactical API Error Code 800
+"CHOOSEDELIVERYSLOT_2255" = "Sorry, we are experiencing lots of traffic and we could not book that slot right now."; // Tactical API Error Code 900 or 910
+"CHOOSEDELIVERYSLOT_2260" = "Sorry, we are experiencing lots of traffic and we could not book that slot right now."; // Tactical API Error Code 920
+
+"READYFORCHECKOUT_2340" = "No slot booked. It looks like you haven't chosen a slot, or the one you have chosen is no longer valid. Choose a slot by tapping 'Book a slot’ on the left-hand menu."; // Tactical API Error Code 270
+"READYFORCHECKOUT_2345" = "You've got no items in your basket, so there's nothing to check out just yet"; // Tactical API Error Code 280
+"READYFORCHECKOUT_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"READYFORCHECKOUT_2250" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 800
+"READYFORCHECKOUT_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+"READYFORCHECKOUT_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+
+"LISTDELIVERYSLOTS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTDELIVERYSLOTS_2250" = "Sorry, we could not retrieve the delivery slots because our servers are busy."; // Tactical API Error Code 800
+"LISTDELIVERYSLOTS_2255" = "Sorry, we could not retrieve the delivery slots because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTDELIVERYSLOTS_2260" = "Sorry, we could not retrieve the delivery slots because our servers are busy."; // Tactical API Error Code 920
+
+"LISTDELIVERYADDRESSES_2225" = "Sorry, you can't make this change to a pending order."; // Tactical API Error Code 180
+"LISTDELIVERYADDRESSES_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTDELIVERYADDRESSES_2250" = "Sorry, we could not retrieve your registered addresses because our servers are busy."; // Tactical API Error Code 800
+"LISTDELIVERYADDRESSES_2255" = "Sorry, we could not retrieve your registered addresses because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTDELIVERYADDRESSES_2260" = "Sorry, we could not retrieve your registered addresses because our servers are busy."; // Tactical API Error Code 920
+        
+"LISTCOLLECTIONPOINTS_2225" = "Sorry, you can't make this change to a pending order."; // Tactical API Error Code 180
+"LISTCOLLECTIONPOINTS_2240" = "Sorry, We can't find that postcode. Please check and try again."; // Tactical API Error Code 600
+"LISTCOLLECTIONPOINTS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTCOLLECTIONPOINTS_2250" = "Sorry, we could not get your nearest collection points because our servers are busy."; // Tactical API Error Code 800
+"LISTCOLLECTIONPOINTS_2255" = "Sorry, we could not get your nearest collection points because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTCOLLECTIONPOINTS_2260" = "Sorry, we could not get your nearest collection points because our servers are busy."; // Tactical API Error Code 920
+
+"GETCOLLECTIONPOINTADDRESS_2225" = "Sorry, you can't make this change to a pending order."; // Tactical API Error Code 180
+"GETCOLLECTIONPOINTADDRESS_2380" = "Sorry, we can't find the address for that collection point."; // Tactical API Error Code 460
+"GETCOLLECTIONPOINTADDRESS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"GETCOLLECTIONPOINTADDRESS_2250" = "Sorry, we could not find the address for that collection point because our servers are busy."; // Tactical API Error Code 800
+"GETCOLLECTIONPOINTADDRESS_2255" = "Sorry, we could not find the address for that collection point because our servers are busy."; // Tactical API Error Code 900 or 910
+"GETCOLLECTIONPOINTADDRESS_2260" = "Sorry, we could not find the address for that collection point because our servers are busy."; // Tactical API Error Code 920
+
+"LISTCOLLECTIONSLOTS_2365" = "Sorry, there was a problem retrieving collection slots. Please try again later."; // Tactical API Error Code 370 // no colllection slot available
+"LISTCOLLECTIONSLOTS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTCOLLECTIONSLOTS_2250" = "Sorry, we could not retrieve the collection slots because our servers are busy."; // Tactical API Error Code 800
+"LISTCOLLECTIONSLOTS_2255" = "Sorry, we could not retrieve the collection slots because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTCOLLECTIONSLOTS_2260" = "Sorry, we could not retrieve the collection slots because our servers are busy."; // Tactical API Error Code 920
+
+"PRODUCTSEARCH_2230" = "No products found."; // Tactical API Error Code 390
+"PRODUCTSEARCH_2235" = "Please sign in to use this feature."; // Tactical API Error Code 490 
+"PRODUCTSEARCH_2240" = "Sorry, we cannot find the product you are looking for."; // Tactical API Error Code 600
+"PRODUCTSEARCH_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"PRODUCTSEARCH_2250" = "Sorry, we could not find any products because our servers are busy."; // Tactical API Error Code 800
+"PRODUCTSEARCH_2255" = "Sorry, we could not find any products because our servers are busy."; // Tactical API Error Code 900 or 910
+"PRODUCTSEARCH_2260" = "Sorry, we could not find any products because our servers are busy."; // Tactical API Error Code 920
+
+"LISTPRODUCTSBYOFFERID_2230" = "No products found"; // Tactical API Error Code 390
+"LISTPRODUCTSBYOFFERID_2240" = "No products found"; // Tactical API Error Code 600
+"LISTPRODUCTSBYOFFERID_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTPRODUCTSBYOFFERID_2250" = "Sorry, we could not find any products because our servers are busy."; // Tactical API Error Code 800
+"LISTPRODUCTSBYOFFERID_2255" = "Sorry, we could not find any products because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTPRODUCTSBYOFFERID_2260" = "Sorry, we could not find any products because our servers are busy."; // Tactical API Error Code 920
+       
+"LISTBASKET_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTBASKET_2250" = "Sorry, we could not show your basket because our servers are busy."; // Tactical API Error Code 800
+"LISTBASKET_2255" = "Sorry, we could not show your basket because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTBASKET_2260" = "Sorry, we could not show your basket because our servers are busy."; // Tactical API Error Code 920
+
+"DELETEFAVOURITE_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"DELETEFAVOURITE_2250" = "DELETEFAVOURITE_2250"; // Tactical API Error Code 800
+"DELETEFAVOURITE_2255" = "DELETEFAVOURITE_2255"; // Tactical API Error Code 900 or 910
+"DELETEFAVOURITE_2260" = "DELETEFAVOURITE_2260"; // Tactical API Error Code 920
+
+"LISTBASKETSUMMARY_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTBASKETSUMMARY_2250" = "Sorry, we could not retrieve your basket summary because our servers are busy."; // Tactical API Error Code 800
+"LISTBASKETSUMMARY_2255" = "Sorry, we could not retrieve your basket summary because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTBASKETSUMMARY_2260" = "Sorry, we could not retrieve your basket summary because our servers are busy."; // Tactical API Error Code 920
+
+"AMENDORDER_2360" = "Sorry, you cannot make changes because our servers are busy."; // Tactical API Error Code 340 // unable to amend order
+"AMENDORDER_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"AMENDORDER_2250" = "Sorry, you cannot make changes because our servers are busy."; // Tactical API Error Code 800
+"AMENDORDER_2255" = "Sorry, you cannot make changes because our servers are busy."; // Tactical API Error Code 900 or 910
+"AMENDORDER_2260" = "Sorry, you cannot make changes because our servers are busy."; // Tactical API Error Code 920
+
+"SAVEAMENDORDER_2325" = "Your order is no longer in amend mode so we can not save those changes."; // Tactical API Error Code 242
+"SAVEAMENDORDER_2330" = "Your order is no longer in amend mode so we can not save those changes."; // Tactical API Error Code 246 or 330
+"SAVEAMENDORDER_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"SAVEAMENDORDER_2250" = "Sorry, we could not save those changes because our servers are busy."; // Tactical API Error Code 800
+"SAVEAMENDORDER_2255" = "Sorry, we could not save those changes because our servers are busy."; // Tactical API Error Code 900 or 910
+"SAVEAMENDORDER_2260" = "Sorry, we could not save those changes because our servers are busy."; // Tactical API Error Code 920
+
+"LOGIN_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LOGIN_2200" = "LOGIN_2200"; // Tactical API Error Code 100 // one parameter is missing
+"LOGIN_2210" = "LOGIN_2210"; // Tactical API Error Code 120 // call should be made only through https 
+"LOGIN_2215" = "LOGIN_2215"; // Tactical API Error Code 140 // disable app key or dev key 
+"LOGIN_2390" = "We couldn't sign you in. Please check your sign in credentials and try again."; // Tactical API Error Code 610
+"LOGIN_2250" = "Sorry, we could not sign you in because our servers are busy."; // Tactical API Error Code 800
+"LOGIN_2255" = "Sorry, we could not sign you in because our servers are busy."; // Tactical API Error Code 900 or 910
+"LOGIN_2260" = "Sorry, we could not sign you in because our servers are busy."; // Tactical API Error Code 920
+        
+"CHANGEBASKET_2200" = "Sorry, we could not add this product to your basket this time"; // Tactical API Error Code 100
+"CHANGEBASKET_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"CHANGEBASKET_2220" = "Please sign in to make use of this feature"; // Tactical API Error Code 170 // not available in anonymous mode
+"CHANGEBASKET_2375" = "Sorry, we could not add all those products to you basket. Please check your basket to verify which products were added."; // Tactical API Error Code 400
+"CHANGEBASKET_2250" = "Sorry, we could not add or remove the product because our servers are busy."; // Tactical API Error Code 800
+"CHANGEBASKET_2255" = "Sorry, we could not add or remove the product because our servers are busy."; // Tactical API Error Code 900 or 910
+"CHANGEBASKET_2260" = "Sorry, we could not add or remove the product because our servers are busy."; // Tactical API Error Code 920
+
+"GETAPPVERSION_2300" = "Unable to retrieve app version info."; // Tactical API Error Code 200 // version info not available
+"GETAPPVERSION_2255" = "Sorry, we could not retrieve the app version because our servers are busy."; // Tactical API Error Code 900 or 910
+"GETAPPVERSION_2260" = "Sorry, we could not retrieve the app version because our servers are busy."; // Tactical API Error Code 920
+
+"GETCHOSENSLOTINFO_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100 // one parameter is missing
+"GETCHOSENSLOTINFO_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"GETCHOSENSLOTINFO_2220" = "Sorry, we could not retrieve your slot info because our servers are busy."; // Tactical API Error Code 170
+"GETCHOSENSLOTINFO_2250" = "Sorry, we could not retrieve your slot info because our servers are busy."; // Tactical API Error Code 800
+"GETCHOSENSLOTINFO_2255" = "Sorry, we could not retrieve your slot info because our servers are busy."; // Tactical API Error Code 900 or 910
+"GETCHOSENSLOTINFO_2260" = "Sorry, we could not retrieve your slot info because our servers are busy."; // Tactical API Error Code 920
+
+"LISTFAVOURITES_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100 // one parameter is missing
+"LISTFAVOURITES_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTFAVOURITES_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"LISTFAVOURITES_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170 // not available in anonymous mode
+"LISTFAVOURITES_2230" = "Sorry, we could not find any favourites."; // Tactical API Error Code 390 // product not found 
+"LISTFAVOURITES_2240" = "LISTFAVOURITES_2240"; // Tactical API Error Code 600 // grocery api 
+"LISTFAVOURITES_2235" = "Sorry, there was an error and we could not sort the products."; // Tactical API Error Code 490 
+"LISTFAVOURITES_2250" = "Sorry, we could not retrieve your favourites because our servers are busy."; // Tactical API Error Code 800
+"LISTFAVOURITES_2255" = "Sorry, we could not retrieve your favourites because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTFAVOURITES_2260" = "Sorry, we could not retrieve your favourites because our servers are busy."; // Tactical API Error Code 920
+
+"LISTUSUALS_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"LISTUSUALS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTUSUALS_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"LISTUSUALS_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170
+"LISTUSUALS_2230" = "Sorry, we could not find any usuals."; // Tactical API Error Code 390
+"LISTUSUALS_2240" = "LISTUSUALS_2240"; // Tactical API Error Code 600
+"LISTUSUALS_2235" = "Sorry, there was an error and we could not sort the products."; // Tactical API Error Code 490 
+"LISTUSUALS_2250" = "Sorry, we could not retrieve your usuals because our servers are busy."; // Tactical API Error Code 800
+"LISTUSUALS_2255" = "Sorry, we could not retrieve your usuals because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTUSUALS_2260" = "Sorry, we could not retrieve your usuals because our servers are busy."; // Tactical API Error Code 920
+
+"LISTLASTORDER_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"LISTLASTORDER_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTLASTORDER_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"LISTLASTORDER_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170
+"LISTLASTORDER_2230" = "Sorry, we could not find any previous orders."; // Tactical API Error Code 390
+"LISTLASTORDER_2240" = "LISTLASTORDER_2240"; // Tactical API Error Code 600
+"LISTLASTORDER_2235" = "Sorry, there was an error and we could not sort the products."; // Tactical API Error Code 490 
+"LISTLASTORDER_2250" = "Sorry, we could not retrieve your previous order because our servers are busy."; // Tactical API Error Code 800
+"LISTLASTORDER_2255" = "Sorry, we could not retrieve your previous order because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTLASTORDER_2260" = "Sorry, we could not retrieve your previous order because our servers are busy."; // Tactical API Error Code 920
+
+"LISTPRODUCTOFFERS_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"LISTPRODUCTOFFERS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTPRODUCTOFFERS_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"LISTPRODUCTOFFERS_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170
+"LISTPRODUCTOFFERS_2230" = "Sorry, we could not find any offers."; // Tactical API Error Code 390
+"LISTPRODUCTOFFERS_2240" = "Sorry, there was an error and we could not sort the products."; // Tactical API Error Code 600
+"LISTPRODUCTOFFERS_2250" = "Sorry, we could not retrieve the special offers because our servers are busy."; // Tactical API Error Code 800
+"LISTPRODUCTOFFERS_2255" = "Sorry, we could not retrieve the special offers because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTPRODUCTOFFERS_2260" = "Sorry, we could not retrieve the special offers because our servers are busy."; // Tactical API Error Code 920
+
+
+"EMPTYBASKET_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"EMPTYBASKET_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"EMPTYBASKET_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170
+"EMPTYBASKET_2250" = "Sorry, we could not empty your basket because our servers are busy."; // Tactical API Error Code 800
+"EMPTYBASKET_2255" = "Sorry, we could not empty your basket because our servers are busy."; // Tactical API Error Code 900 or 910
+"EMPTYBASKET_2260" = "Sorry, we could not empty your basket because our servers are busy."; // Tactical API Error Code 920
+        
+        
+"BASKETGUIDEPRICEANDTOTALITEMS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"BASKETGUIDEPRICEANDTOTALITEMS_2215" = "BASKETGUIDEPRICEANDTOTALITEMS_2215"; // Tactical API Error Code 140
+"BASKETGUIDEPRICEANDTOTALITEMS_2250" = "Sorry, we could not retrieve your basket price because our servers are busy."; // Tactical API Error Code 800
+"BASKETGUIDEPRICEANDTOTALITEMS_2255" = "Sorry, we could not retrieve your basket price because our servers are busy."; // Tactical API Error Code 900 or 910
+"BASKETGUIDEPRICEANDTOTALITEMS_2260" = "Sorry, we could not retrieve your basket price because our servers are busy."; // Tactical API Error Code 920
+
+
+"CANCELORDER_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"CANCELORDER_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"CANCELORDER_2215" = "Sorry, there was an unexpected answer."; // Tactical API Error Code 140
+"CANCELORDER_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170
+"CANCELORDER_2250" = "Sorry, we could not cancel your order because our servers are busy."; // Tactical API Error Code 800
+"CANCELORDER_2255" = "Sorry, we could not cancel your order because our servers are busy."; // Tactical API Error Code 900 or 910
+"CANCELORDER_2260" = "Sorry, we could not cancel your order because our servers are busy."; // Tactical API Error Code 920
+
+"CHOOSECOLLECTIONSLOT_2270" = "Sorry, that slot is now fully booked. Please choose another slot or try Home Delivery."; // Tactical API Error Code 320
+"CHOOSECOLLECTIONSLOT_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"CHOOSECOLLECTIONSLOT_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"CHOOSECOLLECTIONSLOT_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"CHOOSECOLLECTIONSLOT_2220" = "Please sign in to use this feature."; // Tactical API Error Code 170
+"CHOOSECOLLECTIONSLOT_2250" = "Sorry, we could not book that slot because our servers are busy."; // Tactical API Error Code 800
+"CHOOSECOLLECTIONSLOT_2255" = "Sorry, we could not book that slot because our servers are busy."; // Tactical API Error Code 900 or 910
+"CHOOSECOLLECTIONSLOT_2260" = "Sorry, we could not book that slot because our servers are busy."; // Tactical API Error Code 920
+
+        
+"HEALTHCHECK_2260" = "Sorry, we could not launch because our servers are busy."; // Tactical API Error Code 920
+"HEALTHCHECK_2250" = "Sorry, we could not launch because our servers are busy."; // Tactical API Error Code 800
+"HEALTHCHECK_2255" = "Sorry, we could not launch because our servers are busy."; // Tactical API Error Code 900 or 910
+        
+"LOGOUT_2200" = "LOGOUT_2200"; // Tactical API Error Code 100
+"LOGOUT_2215" = "LOGOUT_2215"; // Tactical API Error Code 140
+"LOGOUT_2220" = "LOGOUT_2220"; // Tactical API Error Code 170
+"LOGOUT_2250" = "Sorry, we could not log you out because our servers are busy."; // Tactical API Error Code 800
+"LOGOUT_2255" = "Sorry, we could not log you out because our servers are busy."; // Tactical API Error Code 900 or 910
+"LOGOUT_2260" = "Sorry, we could not log you out because our servers are busy."; // Tactical API Error Code 920
+        
+"SERVERDATETIME_2255" = "SERVERDATETIME_2255"; // Tactical API Error Code 900 or 910
+
+"ADDNEWDELIVERYADDRESS_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"ADDNEWDELIVERYADDRESS_2225" = "Sorry, you can't make this change to a pending order."; // Tactical API Error Code 180
+"ADDNEWDELIVERYADDRESS_2240" = "ADDNEWDELIVERYADDRESS_2240"; // Tactical API Error Code 600
+"ADDNEWDELIVERYADDRESS_2250" = "Sorry, we could not add this address because our servers are busy."; // Tactical API Error Code 800
+"ADDNEWDELIVERYADDRESS_2255" = "Sorry, we could not add this address because our servers are busy."; // Tactical API Error Code 900 or 910
+"ADDNEWDELIVERYADDRESS_2260" = "Sorry, we could not add this address because our servers are busy."; // Tactical API Error Code 920
+
+
+
+"CHANGEDELIVERYADDRESS_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"CHANGEDELIVERYADDRESS_2225" = "Sorry, you can't make this change to a pending order."; // Tactical API Error Code 180
+"CHANGEDELIVERYADDRESS_2310" = "Sorry, we are unable to deliver to this address."; // Tactical API Error Code 220
+"CHANGEDELIVERYADDRESS_2315" = "Sorry, we could not change the delivery address."; // Tactical API Error Code 230
+"CHANGEDELIVERYADDRESS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"CHANGEDELIVERYADDRESS_2250" = "Sorry, we could not change the delivery address because our servers are busy."; // Tactical API Error Code 800
+"CHANGEDELIVERYADDRESS_2255" = "Sorry, we could not change the delivery address because our servers are busy."; // Tactical API Error Code 900 or 910
+"CHANGEDELIVERYADDRESS_2260" = "Sorry, we could not change the delivery address because our servers are busy."; // Tactical API Error Code 920
+
+        
+"DEFAULTDELIVERYADDRESS_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"DEFAULTDELIVERYADDRESS_2305" = "Sorry, we can not find your default delivery address right now."; // Tactical API Error Code 210
+"DEFAULTDELIVERYADDRESS_2250" = "Sorry, we could not find the default delivery address because our servers are busy."; // Tactical API Error Code 800
+"DEFAULTDELIVERYADDRESS_2255" = "Sorry, we could not find the default delivery address because our servers are busy."; // Tactical API Error Code 900 or 910
+"DEFAULTDELIVERYADDRESS_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"DEFAULTDELIVERYADDRESS_2260" = "Sorry, we could not find the default delivery address because our servers are busy."; // Tactical API Error Code 920
+
+
+"LISTADDRESSESBYPOSTCODE_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"LISTADDRESSESBYPOSTCODE_2320" = "Sorry, we could not find the list of houses that match this postcode."; // Tactical API Error Code 240
+"LISTADDRESSESBYPOSTCODE_2335" = "Sorry, we could not find the list of property types that match this postcode."; // Tactical API Error Code 250
+"LISTADDRESSESBYPOSTCODE_2240" = "LISTADDRESSESBYPOSTCODE_2240"; // Tactical API Error Code 600
+"LISTADDRESSESBYPOSTCODE_2250" = "Sorry, we could not find this address because our servers are busy."; // Tactical API Error Code 800
+"LISTADDRESSESBYPOSTCODE_2255" = "Sorry, we could not find this address because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTADDRESSESBYPOSTCODE_2260" = "Sorry, we could not find this address because our servers are busy."; // Tactical API Error Code 920
+
+        
+      "CLICKANDCOLLECTAVAILABILITY_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+        "CLICKANDCOLLECTAVAILABILITY_2240" = "CLICKANDCOLLECTAVAILABILITY_2240"; // Tactical API Error Code 600
+        "CLICKANDCOLLECTAVAILABILITY_2205" = "Your session has expired. Please sign in and try again."; //Tactical API Error Code 110 or 700
+        "CLICKANDCOLLECTAVAILABILITY_2250" = "Sorry, we could not find this address because our servers are busy."; // Tactical API Error Code 800
+        "CLICKANDCOLLECTAVAILABILITY_2255" = "Sorry, we could not find this address because our servers are busy."; // Tactical API Error Code 900 or 910
+        "CLICKANDCOLLECTAVAILABILITY_910" = "Sorry, we could not find this address because our servers are busy.";
+        "CLICKANDCOLLECTAVAILABILITY_2260" = "Sorry, we could not find this address because our servers are busy."; // Tactical API Error Code 920
+
+
+
+        
+"LISTINGREDIENTS_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"LISTINGREDIENTS_2240" = "LISTINGREDIENTS_2240"; // Tactical API Error Code 600
+"LISTINGREDIENTS_2205" = "Your session has expired. Please sign in and try again."; //Tactical API Error Code 110 or 700
+"LISTINGREDIENTS_2250" = "Sorry, we could not find all the ingredients because our servers are busy."; // Tactical API Error Code 800
+"LISTINGREDIENTS_2255" = "Sorry, we could not find all the ingredients because our servers are busy."; // Tactical API Error Code 900 or 910
+"LISTINGREDIENTS_910" = "Sorry, we could not find all the ingredients because our servers are busy.";
+"LISTINGREDIENTS_2260" = "Sorry, we could not find all the ingredients because our servers are busy."; // Tactical API Error Code 920
+
+"JUSTCHECKING_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"JUSTCHECKING_2385" = "Sorry, we could not checkout your order. Please make sure you have items in your basket and a slot booked."; // Tactical API Error Code 470
+"JUSTCHECKING_2240" = "JUSTCHECKING_2240"; // Tactical API Error Code 600
+"JUSTCHECKING_2205" = "Your session has expired. Please sign in and try again."; //Tactical API Error Code 110 or 700
+"JUSTCHECKING_2250" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 800
+"JUSTCHECKING_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+"JUSTCHECKING_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+
+"LISTPRODUCTSBYSPECIALOFFER_2280" = "Sorry, we can not retrieve the products in this special offer right now."; // Tactical API Error Code 458
+"LISTPRODUCTSBYSPECIALOFFER_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"LISTPRODUCTSBYSPECIALOFFER_2215" = "Sorry, there was an unexpected error."; // Tactical API Error Code 140
+"LISTPRODUCTSBYSPECIALOFFER_2220" = "Please sign in to  use this feature"; // Tactical API Error Code 170
+"LISTPRODUCTSBYSPECIALOFFER_2230" = "Sorry, we could not get offer details."; // Tactical API Error Code 390
+"LISTPRODUCTSBYSPECIALOFFER_2240" = "LISTPRODUCTSBYSPECIALOFFER_2240"; // Tactical API Error Code 600
+"LISTPRODUCTSBYSPECIALOFFER_2205" = "Your session has expired. Please sign in and try again."; // Tactical API Error Code 110 or 700
+"LISTPRODUCTSBYSPECIALOFFER_2250" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 800
+"LISTPRODUCTSBYSPECIALOFFER_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+"LISTPRODUCTSBYSPECIALOFFER_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+    
+  
+            
+                        
+        "CLUBCARDPOINTS_2275" = "We could not find any points on this Clubcard number"; // Tactical API Error Code 420
+        
+        "GETORDERDETAILS_2230" = "Sorry, we could not get order details."; // Tactical API Error Code 390
+        "GETORDERDETAILS_2250" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 800
+        "GETORDERDETAILS_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+        "GETORDERDETAILS_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+      
+          
+"RESTOFSHELF_2200" = "Please sign in to use this feature."; // Tactical API Error Code 100
+"RESTOFSHELF_2230" = "Sorry, we could not access the rest of shelf."; // Tactical API Error Code 390
+"RESTOFSHELF_2205" = "Your session has expired. Please sign in and try again."; //Tactical API Error Code 110 or 700
+"RESTOFSHELF_2250" = "Sorry, we can not access rest of shelf because our servers are busy."; // Tactical API Error Code 800
+"RESTOFSHELF_2255" = "Sorry, we can not access rest of shelf because our servers are busy."; // Tactical API Error Code 900 or 910
+"RESTOFSHELF_2260" = "Sorry, we can not access rest of shelf because our servers are busy."; // Tactical API Error Code 920
+
+"REGISTER_2200" = "REGISTER_2200"; // Tactical API Error Code 100
+"REGISTER_2240" = "REGISTER_2240"; // Tactical API Error Code 600
+"REGISTER_2255" = "Sorry, we could not register you because our servers are busy."; // Tactical API Error Code 900 or 910
+"REGISTER_2260" = "Sorry, we could not register you because our servers are busy."; // Tactical API Error Code 920
+
+
+"ADDPROFILE_2200" = "ADDPROFILE_2200"; // Tactical API Error Code 100
+"ADDPROFILE_2240" = "ADDPROFILE_2240"; // Tactical API Error Code 600
+"ADDPROFILE_2255" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 900 or 910
+"ADDPROFILE_2260" = "Sorry, we are experiencing lots of traffic and we can't connect you right now."; // Tactical API Error Code 920
+
+"PRODUCTSEARCH_ANONYMOUS_2200" = "Anonymous browse is temporarily unavailable. Please sign-in to enable all sections of this app"; // Tactical API Error Code 100 in Anonymous Mode
+"LISTPRODUCTCATEGORIES_ANONYMOUS_2200" = "Anonymous browse is temporarily unavailable. Please sign-in to enable all sections of this app"; // Tactical API Error Code 100 in Anonymous Mode
+"LISTPRODUCTSBYCATEGORY_ANONYMOUS_2200" = "Anonymous browse is temporarily unavailable. Please sign-in to enable all sections of this app"; // Tactical API Error Code 100 in Anonymous Mode
+
+"AVOCADO_CONTEXTUAL_GENERIC_ERROR_MESSAGE" = "Sorry, something went wrong\nPlease try again later";
+
+"Session_Expiry" = "Your session has expired. Please sign in and try again.";
+
+//Generic CCube Error        
+"GENERIC_CCUBE_ERROR_2265" = "You need to sign in to use this feature";  
+"GENERIC_CCUBE_ERROR_2395" = "GENERIC_CCUBE_ERROR_2395";  // 
+"GENERIC_CCUBE_ERROR_99999" = "Sorry, there was an unexpected error."; // Undefined Error
+"GENERIC_CCUBE_ERROR_2100" = "Sorry, we can't find a connection. Please check your network.";  // Network Unavailable
+"GENERIC_CCUBE_ERROR_2105" = "Sorry, the network has timed out.";  // Network Timeout
+"GENERIC_CCUBE_ERROR_2110" = "Sorry, there was an unexpected network error.";  //  Network Error
+"GENERIC_CCUBE_ERROR_2130" = "Sorry, there was an unexpected error.";  // Data Response Null
+"GENERIC_CCUBE_ERROR_2135" = "Sorry, there was an unexpected error.";  // JSONParse Malformed Error
+"GENERIC_CCUBE_ERROR_2140" = "GENERIC_CCUBE_ERROR_2140";  // No Information cached for login detail
+"GENERIC_CCUBE_ERROR_2141" = "Your session has expired. Please sign in and try again.";  // No Information cached for login detail in auto login
+"GENERIC_CCUBE_ERROR_2150" = "GENERIC_CCUBE_ERROR_2150";  // If Command Not Implemented
+"DEFAULT_ERROR_MESSAGE" = "Sorry, there was an unexpected error";
+
+//ContextErrorString
+"ADDNEWADDRESS" = "Add address";
+"AMENDSAVEAMEND"= "Save changes";
+"CANCELAMEND"= "Cancel changes";
+"LISTFAVOURITES" = "Favourites";
+"LISTUSUALS" = "Usuals";
+"LISTPRODUCTONSHELVES" = "Could not load products";
+"MYORDERS" = "Orders";
+"LASTORDER" = "Last Order";
+"OFFERS" = "Special offers";
+"PRODUCTDETAILS" = "Product details";
+"CHOOSEADDRESS" = "Choose address";
+"CHOOSESLOTTYPE" = "Book a slot";
+"CHOOSECOLLECTIONPOINT" = "Collection points";
+"CHOOSEDELIVERYSLOT" = "Book a slot";
+"CHOOSECOLLECTIONSLOT" = "Book a slot";
+"FAVOURITEHUB" = "Favourites";
+"SHOPALLGROCERIES" = "Tesco";
+"CHECKOUT" = "Checkout";
+"LISTINGREDIENTS" = "Recipe";
+"BARCODESCANSEARCH" = "Barcode scan";
+"SEARCH" = "Search";
+"HOMESCREEN" = "Tesco";
+"BASKET" = "Basket";
+"JUSTCHECKING" = "Just Checking";
+"SIGNIN" = "Sign in";
+"SIGNOUT" = "Sign out";
+"HELPANDSUPPORT" = "Help & support";
+"ADDCLUBCARD" = "Clubcard";
+"REGISTER" = "Register";
+"RESTOFSHELF"  = "Rest of shelf";
+"SHELF" = "Could not load products";
+"FILTER" = "Filter";
+"SORT"= "Sort";
+"SORRY" = "Sorry";
+
+          
+//Help and about
+
+"HELP_AND_ABOUT_HELP" = "Help";
+"iPAD_HELP_AND_ABOUT_HELP" = "Help & About";
+"HELP_AND_ABOUT_CONTANT_US" = "Contact us";
+"HELP_AND_ABOUT_SIGN_UP_FOR_EMAILS" = "Sign up for emails";
+"HELP_AND_ABOUT_FEEDBACK_ON_THIS_APP" = "Feedback on this app";
+"HELP_AND_ABOUT_TERMS_AND_CONDITION" = "Terms & conditions";
+"HELP_AND_ABOUT_PRIVACY_AND_COOKIES" = "Privacy & cookies";
+"HELP_AND_ABOUT_VERSION" = "Version";
+"HELP_AND_ABOUT_HELP_AND_SUPPORT" = "HELP & SUPPORT";
+"HELP_AND_ABOUT_ABOUT" = "ABOUT";
+"HELP_AND_ABOUT_EMAIL" = "Please configure your email and try again.";
+"HELP_AND_ABOUT_FEEDBACK_TITLE" = "We value your feedback";
+"HELP_AND_ABOUT_FEEDBACK_TITLE_NEW"= "Feedback";
+"HELP_AND_ABOUT_FEEDBACK" = "Please let us know what you like, don't like or what new features you'd like to see in this app.";
+"HELP_AND_ABOUT_FEEDBACK_BUTTON" = "Send feedback";
+
+//List All Ingredients
+"List_Ingredients_Add_All_Button" = "Add all ingredients";
+"ListIngredients_Some_Products_Failed_To_Add Basket_Msg" = "Sorry, we could not add all those products to your basket. Please check your basket to verify which products were added";
+
+//Upgrade message
+"AVOCADO_UPDATE_MESSAGE" = "There is a new version of the app available. Do you want to update now?";
+"AVOCADO_UPDATE_CONFIRM_BUTTON_TITLE" = "Update";
+"AVOCADO_UPDATE_NOT_NOW_BUTTON_TITLE" = "Not now";
+
+//Accessibility
+"AVOCADO_ACCESSIBILITY_OPEN_BASKET" = "Open basket";
+"AVOCADO_ACCESSIBILITY_CLOSE_BASKET" = "Close basket";
+"AVOCADO_ACCESSIBILITY_SEARCH_FIELD" = "Search field";
+"AVOCADO_ACCESSIBILITY_ADD_ITEM" = "Add item";
+"AVOCADO_ACCESSIBILITY_REMOVE_ITEM" = "Remove item";
+"AVOCADO_ACCESSIBILITY_BASKET_OPTIONS" = "More options";
+"TESCOUI_ACCESSIBILITY_SIGN_IN_EMAIL" = "Email field";
+"TESCOUI_ACCESSIBILITY_SIGN_IN_PASSWORD" = "Password field";
+"TESCOUI_ACCESSIBILITY_OPEN_MAIN_MENU" = "Open main menu";
+"TESCOUI_ACCESSIBILITY_CLOSE_MAIN_MENU" = "Close main menu";
+"TESCOUI_ACCESSIBILITY_CLOSE_VIEW" = "Close view";
+
+//iPad
+"FAVOURITES_NO_FAVOURITES" = "Your favourites will be displayed here after your first order";
+"USUALS_NO_USUALS" = "Your usuals will be displayed here after your second order";
+"LASTORDER_NO_LIST" = "Your last order will be displayed here after your first order";
+"Last_Order_Title" = "Last order";
+
+"SPECIALOFFER_ONLY1_EMPTY" = "Currently no only £1 offers available";
+"SPECIALOFFER_HALFPRICE_EMPTY" = "Currently no half price offers available";
+"SPECIALOFFER_TOPOFFER_EMPTY" = "Currently no top offers available";
+
+"Download_iPad_App"="Download now";
+"Switch_to_iPad_App"="Switch to the new iPad groceries app";
+
+"Bulk_Add_Products_Alert_Title" = "{0} items will be added to your basket.";
+"Bulk_Add_Products_Alert_Title_With_Single_Item" = "{0} item will be added to your basket.";
+"Bulk_Add_Products_Alert_Msg" = "The quantity you ordered for each product will be added, which you can view and change in your basket.";
+"Bulk_Add_Products_Alert_Message" = "We've added the original item quantity you ordered, which you can view and change in your basket";
+"Bulk_Add_Button_Title" = "Add this order to basket";
+"bulk_add_failure_Alert_msg" = "Unable to load this order.";
+
+"MISSED_OFFERS_TITLE" = "Missed offers"
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageSettings>
+	<MultipleLanguagesAvailable>false</MultipleLanguagesAvailable>
+	<DefaultLanguage>en-GB</DefaultLanguage>
+	<CurrencyCulture>en-GB</CurrencyCulture>
+	<MaxCurrency>1000</MaxCurrency>
+	<UTCOffset>0</UTCOffset>
+	<Languages>
+		<Language>
+			<CultureName>en-GB</CultureName>
+			<DisplayName>English</DisplayName>
+		</Language>
+	</Languages>
+</LanguageSettings>

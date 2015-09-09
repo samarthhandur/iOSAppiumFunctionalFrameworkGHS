@@ -1,0 +1,173 @@
+<controller>
+  <!-- This is the section that defines the actions used in the shop journey -->
+  <action-commands>
+  <!-- BasketManager actions -->
+  	<action name="BasketManagerBasketGuide" data="BasketManagerBasketGuide" view="#"/>
+  	<action name="BasketManagerListBasket" data="BasketManagerListBasket" view="#"/>
+	<action name="BasketManagerChangeBasket" data="BasketManagerChangeBasket" view="#"/>
+	<action name="BasketManagerEmptyBasket" data="BasketManagerEmptyBasket" view="#"/>
+    <action name="BasketManagerSetBasketSubstitution" data="BasketManagerSetBasketSubstitution" view="#"/>
+
+  <!-- SlotManager actions -->
+  	<action name="SlotManagerGetChosenSlotInfo" data="GetChosenSlotInfo" view="#"/>
+  	<action name="SlotManagerListDeliverySlots" data="GetDeliverySlots" view="#"/>
+  	<action name="SlotManagerReserveDeliverySlot" data="ReserveDeliverySlot" view="#"/>
+  	<action name="SlotManagerListCollectionSlots" data="ListCollectionSlots" view="#"/>
+  	<action name="SlotManagerReserveCollectionSlot" data="ReserveCollectionSlot" view="#"/>
+  	<action name="GetAvailableSlotTypes" data="GetAvailableSlotTypes" view="#"/>
+  	
+    <!-- CheckoutManager actions -->
+    <action name="CheckoutManagerReadyForCheckout" data="CheckoutManagerReadyForCheckout" view="#"/>
+    <action name="CheckoutManagerJustChecking" data="CheckoutManagerJustChecking" view="#"/>
+    
+  <!-- SearchManager actions -->
+	<action name="SearchManagerProductSearch" data="SearchManagerProductSearch" view="#"/>
+    <action name="Register" data="Register" view="#"/>
+    <action name="AddProfile" data="AddProfile" view="#"/>
+  	<!-- sign in  -->
+  	<action name="DoLogin" data="Sign-In" view="#" />			
+    <!-- sign out  -->
+    <action name="DoLogout" data="Sign-Out" view="#" />
+    <!-- shop rules start here -->
+    <action name="GetSuperDepartments" data="GetShopInfo" view="#" />
+    <action name="GetDepartments" data="GetShopInfo" view="#" />
+    <action name="GetAisles" data="GetShopInfo" view="#" />
+    <action name="ProductList" data="GetProductsInShelf" view="#" />
+	<action name="ProductDetails" data="GetProductDetails" view="#"/>
+    <!-- favourites rules -->
+    <action name="ListFavourites" data="GetFavourites" view="#" />
+    <action name="DeleteFavourites" data="DeleteFavourite" view="#" />
+  	<!-- LastOrder rules -->
+    <action name="ListLastOrder" data="ListLastOrder" view="#" />
+    <!-- MyUsual rules -->
+    <action name="ListUsuals" data="GetUsualProducts" view="#" />
+    <action name="ListByOfferID" data="ListProductsByOffer" view="#" />
+    <action name="listPendingOrderCmdRequest" data="ListPendingOrder" view="#" />
+    <action name="PreviousOrderListCmd" data="GetOrderDetails" view="#" />
+
+	<!-- GroceryManager -->	
+	<action name="GroceryManagerListDeliveryAddresses" data="ListDeliveryAddresses" view="#" />
+	<action name="GroceryManagerListCollectionPoints" data="ListCollectionPoints" view="#" />
+    <action name="GroceryManagerListAddressesByPostcode" data="ListAddressesByPostCode" view="#" />	
+    <action name="GroceryManagerAddNewDeliveryAddress" data="AddNewDeliveryAddress" view="#" /> 
+	<action name="GroceryManagerGetCollectionPointAddress" data="GetCollectionPointAddress" view="#" />	
+	<action name="GroceryManagerReserveCollectionSlot" data="ReserveCollectionSlot" view="#" />
+	<action name="GroceryManagerReserveDeliverySlot" data="ReserveDeliverySlot" view="#" />
+	<action name="GroceryManagerRestOfShelf" data="RestOfShelf" view="#" />
+	<action name="GroceryManagerAmendOrder" data="AmendOrder" view="#" />
+	<action name="GroceryManagerSaveAmendOrder" data="SaveAmendOrder" view="#" />
+	<action name="GroceryManagerCancelAmendOrder" data="CancelAmendOrder" view="#" />
+	<action name="GroceryManagerCancelOrder" data="CancelOrder" view="#" />
+	<action name="GroceryManagerClubcardPoints" data="ClubcardPoints" view="#" />
+	<action name="GroceryManagerGetAppVersion" data="GetAppVersion" view="#" />
+    <action name="GroceryManagerBasketSummary" data="BasketSummary" view="#" />
+    <action name="GroceryManagerServerDateTime" data="ServerDateTime" view="#" />
+    <action name="GroceryManagerGetUserProfile" data="GetProfile" view="#" />
+
+	<!-- AddressManager -->	
+	<action name="AddressManagerDefaultDeliveryAddress" data="DefaultDeliveryAddress" view="#" />	
+	<action name="AddressManagerChangeAddress" data="ChangeDeliveryAddress" view="#" />	
+	
+	<!---ListIngredients -->
+	<action name="ListIngredientsProvider" data="ListIngredients" view="#" />	
+
+
+	<!-- Dashboard, special offers -->
+	<action name="ListSpecialOffersMenu" data="ListSpecialOffersMenu" view="#" />
+	<action name="ListProductsBySpecialOffer" data="ListProductsBySpecialOffer" view="#" />
+
+	<!-- BuyLists -->
+    <action name="ListBuyLists" data="ListBuyLists" view="#" />
+    <action name="GetBuyList" data="GetBuyList" view="#" />
+
+        <!-- Shopping Lists -->
+    <action name="ListShoppingLists" data="ListShoppingLists" view="#" />
+    <action name="GetProductsFromShoppingList" data="GetProductsFromShoppingList" view="#" />
+
+  </action-commands>
+  <!-- Configure the data commands here -->
+  <data-commands>
+    <!-- data name="Sign-In" command="Login" business="identity" connector="TacticalAPI" -->
+    <data name="Sign-In" command="Token" business="identity" connector="TacticalAPI" />
+    <data name="Sign-Out" command="Logout" business="identity" connector="TacticalAPI" />
+    <data name="GetShopInfo" command="ListProductCategories" business="grocery" connector="TacticalAPI" />
+    <data name="GetProductDetails" command="ProductDetail" business="grocery" connector="TacticalAPI" />
+    <data name="GetProductsInShelf" command="ProductList" business="grocery" connector="TacticalAPI" />
+    <data name="GetChosenSlotInfo" command="GetChosenSlotInfo" business="grocery" connector="TacticalAPI" />
+    <data name="GetDeliverySlots" command="GetDeliverySlots" business="grocery" connector="TacticalAPI" />
+    <data name="ReserveDeliverySlot" command="ReserveDeliverySlot" business="grocery" connector="TacticalAPI" />
+    <data name="DefaultDeliveryAddress" command="DefaultDeliveryAddress" business="grocery" connector="TacticalAPI" />
+    <data name="ListDeliveryAddresses" command="ListDeliveryAddresses" business="grocery" connector="TacticalAPI" />
+    <data name="ChangeDeliveryAddress" command="ChangeDeliveryAddress" business="grocery" connector="TacticalAPI" />
+    <data name="ListAddressesByPostCode" command="ListAddressesByPostCode" business="grocery" connector="TacticalAPI" />
+    <data name="AddNewDeliveryAddress" command="AddNewDeliveryAddress" business="grocery" connector="TacticalAPI" />
+    <data name="ListProductOffers" command="ListProductOffers" business="grocery" connector="TacticalAPI" />
+    <data name="ListProductsByOffer" command="ListProductsByOffer" business="grocery" connector="TacticalAPI" />
+    <data name="ListIngredients" command="ListIngredients" business="grocery" connector="TacticalAPI" />
+    <data name="ListCollectionPoints" command="ListCollectionPoints" business="grocery" connector="TacticalAPI" />
+    <data name="GetCollectionPointAddress" command="GetCollectionPointAddress" business="grocery" connector="TacticalAPI" />
+    <data name="ListCollectionSlots" command="ListCollectionSlots" business="grocery" connector="TacticalAPI" />
+    <data name="ReserveCollectionSlot" command="ReserveCollectionSlot" business="grocery" connector="TacticalAPI" />
+    <data name="ClickAndCollectAvailability" command="ClickAndCollectAvailability" business="grocery" connector="TacticalAPI" />
+    <data name="FindStores" command="FindStores" connector="GoogleAPI" />
+    <data name="ListPendingOrdersData" command="ListPendingOrders" business="grocery" connector="TacticalAPI" />
+    <data name="AmendOrder" command="AmendOrder" business="grocery" connector="TacticalAPI" />
+    <data name="SaveAmendOrder" command="SaveAmendOrder" business="grocery" connector="TacticalAPI" />
+    <data name="CancelAmendOrder" command="CancelAmendOrder" business="grocery" connector="TacticalAPI" />
+    <data name="GetFavourites" command="FavouriteList" business="grocery" connector="TacticalAPI" />
+    <data name="DeleteFavourite" command="DeleteFavourite" business="grocery" connector="TacticalAPI" />
+    <data name="ListLastOrder" command="ListLastOrder" business="grocery" connector="TacticalAPI" />
+    <data name="GetUsualProducts" command="UsualList" business="grocery" connector="TacticalAPI" />
+    <data name="ListPendingOrder" command="ListPendingOrders" business="grocery" connector="TacticalAPI" />
+    <data name="GetOrderDetails" command="GetOrderDetails" business="grocery" connector="TacticalAPI" />
+	<data name="GetAppVersion" command="GetAppVersion" business="common" connector="TacticalAPI" />
+	<data name="RestOfShelf" command="RestOfShelf" business="grocery" connector="TacticalAPI" />
+	<data name="CancelOrder" command="CancelOrder" business="grocery" connector="TacticalAPI" />
+	<data name="BasketSummary" command="BasketSummary" business="grocery" connector="TacticalAPI" />
+    <data name="ServerDateTime" command="ServerDateTime" business="common" connector="TacticalAPI" />
+    <data name="GetProfile" command="GetProfile" business="identity" connector="TacticalAPI" />
+    <data name="GetAvailableSlotTypes" command="GetAvailableSlotTypes" business="grocery" connector="TacticalAPI" />
+
+    <!-- Checkoutmanager data commands -->
+    <data name="CheckoutManagerReadyForCheckout" command="ReadyForCheckOut" business="grocery" connector="TacticalAPI" />
+    <data name="CheckoutManagerJustChecking" command="JustChecking" business="grocery" connector="TacticalAPI" />
+
+	<!-- BasketManager data commands -->
+	<data name="BasketManagerBasketGuide" command="BasketGuide" business="grocery" connector="TacticalAPI" />
+	<data name="BasketManagerListBasket" command="ListBasket" business="grocery" connector="TacticalAPI" />
+    <data name="BasketManagerChangeBasket" command="ChangeBasket" business="grocery" connector="TacticalAPI" />
+    <data name="BasketManagerEmptyBasket" command="EmptyBasket" business="grocery" connector="TacticalAPI" />
+    <data name="BasketManagerSetBasketSubstitution" command="SetBasketSubstitution" business="grocery" connector="TacticalAPI" />
+
+    <!-- SearchManager data commands -->
+    <data name="SearchManagerProductSearch" command="ProductSearch" business="grocery" connector="TacticalAPI" />
+    <!-- TescoUI data commands -->
+    <data name="Register" command="Register" business="grocery" connector="TacticalAPI" />
+    <data name="AddProfile" command="AddProfile" business="grocery" connector="TacticalAPI" />
+    
+    <!-- clubcard -->
+    <data name="ClubcardPoints" command="ClubcardPoints" business="clubcard" connector="TacticalAPI" />
+    
+    <!-- Dashboard, special offers -->
+    <data name="ListSpecialOffersMenu" command="ListSpecialOffersMenu" business="grocery" connector="TacticalAPI" />
+    <data name="ListProductsBySpecialOffer" command="ListProductsBySpecialOffer" business="grocery" connector="TacticalAPI" />
+
+    <!-- BuyLists -->
+    <data name="ListBuyLists" command="ListBuyLists" business="grocery" connector="TacticalAPI" />
+    <data name="GetBuyList" command="BuyList" business="grocery" connector="TacticalAPI" />
+
+        <!-- Shopping Lists -->
+    <data name="ListShoppingLists" command="ListShoppingLists" business="grocery" connector="TacticalAPI" />
+    <data name="GetProductsFromShoppingList" command="GetProductsFromShoppingList" business="grocery" connector="TacticalAPI" />
+
+  </data-commands>
+  <!-- Configure the views here -->
+  <views>
+    <view name="LoginView" class="Grocery.iOS.SignInViewController,GroceryiOS" />
+    <view name="HomeView" class="Grocery.iOS.Grocery_iOSViewController,GroceryiOS" />
+  </views>
+  <filters>
+    <filter name="Analytics" type="CCube.Core.Controller.Filters.AnalyticsFilter,CCube.Core" />
+    <filter name="Validation" type="CCube.Core.Controller.Filters.ValidationFilter,CCube.Core" />
+  </filters>
+</controller>

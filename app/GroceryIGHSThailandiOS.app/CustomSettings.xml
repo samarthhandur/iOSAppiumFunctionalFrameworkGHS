@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Custom>
+	<CustomSettings>
+		<CustomSetting name="PasswordMinimumSize" value="6" />
+		<CustomSetting name="Build" value="0001" />
+		<!--- IGHS -->
+		<CustomSetting name="OmnitureProductionAppKey" value="tescointgroceriesprod,tescointgroceriestha" />
+		<CustomSetting name="BugsenseProductionKey" value="b3d7e018" />
+		<CustomSetting name="CurrencyCode" value="THB" />
+		<CustomSetting name="DisablePredictiveSearch" value="true" />
+		<CustomSetting name="RegistrationURL" value="https://r.tescolotus.com/{0}/register?chromeless=1&amp;ui=mobile" />
+		<CustomSetting name="RegistrationSetupURL" value="https://s.tescolotus.com/{0}/register/setup?chromeless=1&amp;ui=mobile" />
+		<CustomSetting name="CheckoutURL" value="https://s.tescolotus.com/{0}/checkout?chromeless=1&amp;ui=mobile&amp;scenario=checkout" />
+		<CustomSetting name="LoginURL" value="https://r.tescolotus.com/{0}/login?chromeless=1&amp;ui=mobile" />
+		<CustomSetting name="ExternalWebAddress" value="www.tescolotus.com" />
+		<CustomSetting name="LoginConfirmationURL" value="https://s.tescolotus.com/{0}/" />
+		<CustomSetting name="Help-th-TH" value="http://www.tescolotus.com/shoponline/th/help.php?rel=help" />
+		<CustomSetting name="Help-en-GB" value="http://www.tescolotus.com/shoponline/en/help.php?rel=help" />
+		<CustomSetting name="Contactus-en-GB" value="http://www.tescolotus.com/shoponline/en/help.php?rel=help"/>
+		<CustomSetting name="Contactus-th-TH" value="http://www.tescolotus.com/shoponline/th/help.php?rel=help"/>
+		<CustomSetting name="Feedback-en-GB" value="https://s.userzoom.com/m/MSBDMzUyUzU2"/>
+		<CustomSetting name="Feedback-th-TH" value="https://s.userzoom.com/m/MSBDMzUyUzYw"/>
+		<CustomSetting name="Terms-en-GB" value="http://www.tescolotus.com/shoponline/en/help-terms-and-conditions.php"/>
+		<CustomSetting name="Terms-th-TH" value="http://www.tescolotus.com/shoponline/th/help-terms-and-conditions.php"/>	    
+		<CustomSetting name="Clubcard-en-GB" value="http://www.tescolotus.com/en/clubcard"/>
+	    <CustomSetting name="Clubcard-th-TH" value="http://www.tescolotus.com/clubcard"/>
+	   	<CustomSetting name="Privacy-th-TH" value="http://www.tescolotus.com/shoponline/th/help.php?rel=help"/>
+	    <CustomSetting name="Privacy-en-GB" value="http://www.tescolotus.com/shoponline/en/help.php?rel=help"/>
+	    <CustomSetting name="Region" value="TH"/>
+	    <CustomSetting name="ResourcePath-th-TH" value="th.lproj"/>
+	    <CustomSetting name="AppKey" value="trn:tesco:cid:ios-th:uuid:R1-68B9B350-3190-4697-8293-E1AE01690181" />
+	    <CustomSetting name="AppStoreURL" value="itms-apps://itunes.apple.com/us/app/pages/id962234870?mt=8&amp;uo=4" />
+	</CustomSettings>
+</Custom>

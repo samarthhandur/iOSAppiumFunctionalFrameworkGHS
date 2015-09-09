@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageSettings>
+	<MultipleLanguagesAvailable>true</MultipleLanguagesAvailable>
+	<DefaultLanguage>th-TH</DefaultLanguage>
+	<CurrencyCulture>th-TH</CurrencyCulture>
+	<UTCOffset>7</UTCOffset>
+	<MaxCurrency>100000</MaxCurrency>
+	<Languages>
+		<Language>
+			<CultureName>en-GB</CultureName>
+			<DisplayName>English</DisplayName>
+		</Language>
+		<Language>
+			<CultureName>th-TH</CultureName>
+			<DisplayName>ไทย</DisplayName>
+		</Language>
+	</Languages>
+</LanguageSettings>

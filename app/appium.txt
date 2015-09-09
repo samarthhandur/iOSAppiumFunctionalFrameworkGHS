@@ -1,0 +1,9 @@
+[caps]
+platformName = "ios"
+deviceName = "iPhone 6"
+platformVersion = "8.1"
+app = "/Users/Samarth/Documents/Selenium/Workspace/appiumIOS/app/GroceryIGHSThailandiOS.app"
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false

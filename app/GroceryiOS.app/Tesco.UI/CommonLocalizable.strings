@@ -1,0 +1,110 @@
+// Random
+"OK" = "OK";
+"Error" = "Error";
+
+// Signin module strings
+"Signin_Title" = "Sign in";
+"Signin_LoadingMessage" = "Signing in…";
+"Signin_Error_Title" = "We couldn't sign you in";
+"Signin_Forgotpassword" = "Forgot password?";
+"Signin_Register_Title" = "Not registered yet?";
+"Signin_Register" = "Register here";
+"Signin_Forgotten_Password_Title" = "Forgotten Password";
+
+// Registration module strings
+"Registration_Title" = "Register";
+"Registration_BusinessAddress_ChooseError_Message" = "Sorry, we could not process this address. It could be because we do not serve your area or because this is a business address.";
+"Registration_ChooseAddress_Title" = "Choose Address";
+"Registration_ChooseAddress" = "Choose your address";
+"Registration_Error_Title" = "Registration failed!";
+"Registration_LoadingMessage" = "Registering user…";
+"Registration_T&C_Title" = "Tesco Terms & Conditions";
+"Registration_Email_Error" = "Email is not configured on this device";
+"Registration_Email_Sent" = "Have been emailed";
+"Registration_Email" = "Email";
+"Registration_PersonalDetailsHeader" = "Personal details";
+"Registration_AddressDetailsHeader" = "Address details";
+"Registration_ContactDetailsHeader" = "Contact details";
+"Registration_PasswordDetailsHeader" = "Password";
+"Registration_AcceptTC" = "  I accept Tesco Terms & conditions";
+"Registration_ValidName" = "Please enter a valid name";
+"Registration_ErrorDayTime_Message" = "Please enter a valid day time phone number";
+"Registration_ErrorEvening_Message" = "Please enter a valid evening phone number";
+"Registration_ErrorMobileNumber_Message" = "Please enter a valid mobile number";
+"Registration_ErrorAlphaNumeric_Message" = "Enter a valid password which contains alphanumeric characters only";
+"Registration_ErrorPasswordLength_Message" = "Please enter a valid password";
+"Registration_MismatchEmail_Error" = "Mismatch email";
+"Registration_ConfirmPassword_Error_Title" = "Password mismatch!";
+"Registration_ConfirmPassword_Error_Message" = "Your password and confirmation password do not match.";
+"Registration_PasswordStrength" = "Password Strength";
+"Registration_PasswordStrength_Good" = "Good";
+"Registration_Firstname_Placeholder" = "First name";
+"Registration_Lastname_Placeholder" = "Last name";
+"Registration_Nickname_Placeholder" = "Nickname";
+"Registration_Mobilenumber_Placeholder" = "Mobile number (Optional)";
+"Registration_Daynumber_Placeholder" = "Daytime number";
+"Registration_Eveningnumber_Placeholder" = "Evening number";
+"Registration_ConfirmPassword_Placeholder" = "Confirm password";
+"Registration_ScanClucard" = "Scan Clubcard";
+"Registration_ConfirmEmail_Placeholder" = "Confirm email";
+"Registration_Postcode_Placeholder" = "Postcode";
+"Registration_CCNumber_Placeholder" = "Clubcard number";
+"Registration_Requiredfield_Label" = "Required fields";
+"Registration_NoCCButton_Title" = "If you don't have a Clubcard tick this box.";
+"Registration_TC_Link_Label" = "Tesco Terms and Conditions of use";
+"Registration_Privacy_Link_Label" = "Tesco Privacy Policy";
+"Registration_CCT&C_Link_Label" = "Clubcard Terms and Conditions";
+"Registration_Please_enter" = "Please enter ";
+"Registration_ErrorPostcode_Message" = "Please enter valid postcode";
+"Registration_ErrorClubcard_Message" = "Must be a clubcard number";
+"Registration_ErrorEmail_Message" = "Please enter valid email";
+"Registration_AlreadyRegistered_Title" = "Already registered";
+"Registration_AlreadyRegistered_Message" = "The email address {0} has already been registered";
+"Registration_AlreadyRegistered_ForgottenPasswordMessage" = "If you have forgotten your password we can email you a reminder";
+"Registration_AlreadyRegistered_EmailPassword" = "Email my password";
+"Registration_AlreadyRegistered_SignInHere" = "Sign in here";
+"Registration_BusinessAddress_ChooseError_Message" = "Sorry, we could not process this address. It could be because we do not serve your area or because this is a business address.";
+"Registration_Your_Details_Section" = "Your Details";
+"Registration_Your_Clubcard_Section" = "Your Clubcard";
+"Registration_Your_Details_Section" = "Your Details";
+"Registration_Your_Clubcard_Section" = "Your Clubcard";
+"Registration_Password_Rules1" = "Your new password must be at least 8 characters";
+"Registration_Password_Rules2" = "and contain at least 3 of the following:";
+"Registration_Password_Rules3" = "• Uppercase letter (A-Z)";
+"Registration_Password_Rules4" = "• Lowercase letter (a-z)";
+"Registration_Password_Rules5" = "• Number (0-9)";
+"Registration_Password_Rules6" = "• Special character e.g. !, ?, £, $, #";
+
+// Common strings
+"Continue_Button_Title" = "Continue";
+"Password_Placeholder" = "Password";
+"Email_Placeholder" = "Email address";
+"Home" = "Home";
+"Next" = "Next";
+"Book_a_slot" = "Book a slot";
+"My_orders" = "My orders";
+"Favourites_Title" = "Favourites";
+"No_Products_Found_Message" = "No Products Found";
+"Downloading_products_Message" = "Downloading products...";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"Checkout" = "Checkout";
+"Loading" = "Loading...";
+"Tesco_Title" = "Tesco";
+"Avocado_JustChecking" = "Just Checking";
+"Groceries" = "Groceries";
+"Loading Shop..." = "Loading Shop...";
+"Slot booked" = "Slot booked";
+
+//LHN - Left Hand Navigation
+"LHN_Sign_out" = "Sign out";
+"LHN_Saltation_Hello" = "Hello";
+
+"TESCO_UI_NETWORK_UNAVAILABLE" = "Network unavailable";
+
+//Accessibility
+"TESCOUI_ACCESSIBILITY_SIGN_IN_EMAIL" = "Email field";
+"TESCOUI_ACCESSIBILITY_SIGN_IN_PASSWORD" = "Password field";
+"TESCOUI_ACCESSIBILITY_OPEN_MAIN_MENU" = "Open main menu";
+"TESCOUI_ACCESSIBILITY_CLOSE_MAIN_MENU" = "Close main menu";
+"TESCOUI_ACCESSIBILITY_CLOSE_VIEW" = "Close view";

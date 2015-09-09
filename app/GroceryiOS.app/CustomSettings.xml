@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Custom>
+	<CustomSettings>
+		<CustomSetting name="PasswordMinimumSize" value="6" />
+		<CustomSetting name="Build" value="0001" />
+	</CustomSettings>
+</Custom>

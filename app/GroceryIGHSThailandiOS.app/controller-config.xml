@@ -1,0 +1,167 @@
+<controller>
+  <!-- This is the section that defines the actions used in the shop journey -->
+  <action-commands>
+  <!-- BasketManager actions -->
+  	<action name="BasketManagerBasketGuide" data="BasketManagerBasketGuide" view="#"/>
+  	<action name="BasketManagerListBasket" data="BasketManagerListBasket" view="#"/>
+	<action name="BasketManagerChangeBasket" data="BasketManagerChangeBasket" view="#"/>
+	<action name="BasketManagerEmptyBasket" data="BasketManagerEmptyBasket" view="#"/>
+    <action name="BasketManagerSetBasketSubstitution" data="BasketManagerSetBasketSubstitution" view="#"/>
+
+  <!-- SlotManager actions -->
+  	<action name="SlotManagerGetChosenSlotInfo" data="GetChosenSlotInfo" view="#"/>
+  	<action name="SlotManagerListDeliverySlots" data="GetDeliverySlots" view="#"/>
+  	<action name="SlotManagerReserveDeliverySlot" data="ReserveDeliverySlot" view="#"/>
+  	<action name="SlotManagerListCollectionSlots" data="ListCollectionSlots" view="#"/>
+  	<action name="SlotManagerReserveCollectionSlot" data="ReserveCollectionSlot" view="#"/>
+  	
+    <!-- CheckoutManager actions -->
+    <action name="CheckoutManagerReadyForCheckout" data="CheckoutManagerReadyForCheckout" view="#"/>
+    <action name="CheckoutManagerJustChecking" data="CheckoutManagerJustChecking" view="#"/>
+    
+  <!-- SearchManager actions -->
+	<action name="SearchManagerProductSearch" data="SearchManagerProductSearch" view="#"/>
+    <action name="Register" data="Register" view="#"/>
+    <action name="AddProfile" data="AddProfile" view="#"/>
+  	<!-- sign in  -->
+  	<action name="DoLogin" data="Sign-In" view="#" />			
+    <!-- sign out  -->
+    <action name="DoLogout" data="Sign-Out" view="#" />
+    <!-- shop rules start here -->
+    <action name="GetSuperDepartments" data="GetShopInfo" view="#" />
+    <action name="GetDepartments" data="GetShopInfo" view="#" />
+    <action name="GetAisles" data="GetShopInfo" view="#" />
+    <action name="ProductList" data="GetProductsInShelf" view="#" />
+	<action name="ProductDetails" data="GetProductDetails" view="#"/>
+    <!-- favourites rules -->
+    <action name="ListFavourites" data="GetFavourites" view="#" />
+    <action name="DeleteFavourites" data="DeleteFavourite" view="#" />
+  	<!-- LastOrder rules -->
+    <action name="ListLastOrder" data="ListLastOrder" view="#" />
+    <!-- MyUsual rules -->
+    <action name="ListUsuals" data="GetUsualProducts" view="#" />
+    <action name="ListByOfferID" data="ListProductsByOffer" view="#" />
+    <action name="listPendingOrderCmdRequest" data="ListPendingOrder" view="#" />
+    <action name="PreviousOrderListCmd" data="GetOrderDetails" view="#" />
+
+	<!-- GroceryManager -->	
+	<action name="GroceryManagerListDeliveryAddresses" data="ListDeliveryAddresses" view="#" />
+	<action name="GroceryManagerListCollectionPoints" data="ListCollectionPoints" view="#" />
+    <action name="GroceryManagerListAddressesByPostcode" data="ListAddressesByPostCode" view="#" />	
+    <action name="GroceryManagerAddNewDeliveryAddress" data="AddNewDeliveryAddress" view="#" /> 
+	<action name="GroceryManagerGetCollectionPointAddress" data="GetCollectionPointAddress" view="#" />	
+	<action name="GroceryManagerReserveCollectionSlot" data="ReserveCollectionSlot" view="#" />
+	<action name="GroceryManagerReserveDeliverySlot" data="ReserveDeliverySlot" view="#" />
+	<action name="GroceryManagerRestOfShelf" data="RestOfShelf" view="#" />
+	<action name="GroceryManagerAmendOrder" data="AmendOrder" view="#" />
+	<action name="GroceryManagerSaveAmendOrder" data="SaveAmendOrder" view="#" />
+	<action name="GroceryManagerCancelAmendOrder" data="CancelAmendOrder" view="#" />
+	<action name="GroceryManagerCancelOrder" data="CancelOrder" view="#" />
+	<action name="GroceryManagerClubcardPoints" data="ClubcardPoints" view="#" />
+	<action name="GroceryManagerGetAppVersion" data="GetAppVersion" view="#" />
+    <action name="GroceryManagerBasketSummary" data="BasketSummary" view="#" />
+    <action name="GroceryManagerServerDateTime" data="ServerDateTime" view="#" />
+    <action name="GroceryManagerGetUserProfile" data="GetProfile" view="#" />
+
+	<!-- AddressManager -->	
+	<action name="AddressManagerDefaultDeliveryAddress" data="DefaultDeliveryAddress" view="#" />	
+	<action name="AddressManagerChangeAddress" data="ChangeDeliveryAddress" view="#" />	
+	
+	<!---ListIngredients -->
+	<action name="ListIngredientsProvider" data="ListIngredients" view="#" />	
+
+
+	<!-- Dashboard, special offers -->
+	<action name="ListSpecialOffersMenu" data="ListSpecialOffersMenu" view="#" />
+	<action name="ListProductsBySpecialOffer" data="ListProductsBySpecialOffer" view="#" />
+
+	<!-- BuyLists -->
+    <action name="ListBuyLists" data="ListBuyLists" view="#" />
+    <action name="GetBuyList" data="GetBuyList" view="#" />
+
+    <action name="ClearCache" data="ClearCache" view="#" />
+    <action name="GetAppStatus" data="GetAppStatus" view="#" />
+  </action-commands>
+  <!-- Configure the data commands here -->
+  <data-commands>
+    <!-- data name="Sign-In" command="Login" business="identity" connector="TacticalAPI" -->
+    <data name="Sign-In" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="Sign-Out" command="Logout" business="identity" connector="InternationalAPI" />
+    <data name="GetShopInfo" command="ListProductCategories" business="grocery" connector="InternationalAPI" />
+    <data name="GetProductDetails" command="ProductDetail" business="grocery" connector="InternationalAPI" />
+    <data name="GetProductsInShelf" command="ProductList" business="grocery" connector="InternationalAPI" />
+    <data name="GetChosenSlotInfo" command="GetChosenSlotInfo" business="grocery" connector="InternationalAPI" />
+    <data name="GetDeliverySlots" command="DeliverySlots" business="grocery" connector="InternationalAPI" />
+    <data name="ReserveDeliverySlot" command="ReserveSlot" business="grocery" connector="InternationalAPI" />
+    <data name="DefaultDeliveryAddress" command="DefaultDeliveryAddress" business="grocery" connector="InternationalAPI" />
+    <data name="ListDeliveryAddresses" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ChangeDeliveryAddress" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ListAddressesByPostCode" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="AddNewDeliveryAddress" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ListProductOffers" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ListProductsByOffer" command="ListProductsByOffer" business="grocery" connector="InternationalAPI" />
+    <data name="ListIngredients" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ListCollectionPoints" command="ListCollectionPoints" business="grocery" connector="InternationalAPI" />
+    <data name="GetCollectionPointAddress" command="GetCollectionPointAddress" business="grocery" connector="InternationalAPI" />
+    <data name="ListCollectionSlots" command="ListCollectionSlots" business="grocery" connector="InternationalAPI" />
+    <data name="ReserveCollectionSlot" command="ReserveSlot" business="grocery" connector="InternationalAPI" />
+    <data name="ClickAndCollectAvailability" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ListPendingOrdersData" command="ListPendingOrders" business="grocery" connector="InternationalAPI" />
+    <data name="AmendOrder" command="AmendOrder" business="grocery" connector="InternationalAPI" />
+    <data name="SaveAmendOrder" command="SaveAmendOrder" business="grocery" connector="InternationalAPI" />
+    <data name="CancelAmendOrder" command="CancelAmendOrder" business="grocery" connector="InternationalAPI" />
+    <data name="GetFavourites" command="FavouriteList" business="grocery" connector="InternationalAPI" />
+    <data name="DeleteFavourite" command="DeleteFavourite" business="grocery" connector="InternationalAPI" />
+    <data name="ListLastOrder" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="GetUsualProducts" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="ListPendingOrder" command="ListPendingOrders" business="grocery" connector="InternationalAPI" />
+    <data name="GetOrderDetails" command="GetOrderDetails" business="grocery" connector="InternationalAPI" />
+	<data name="GetAppVersion" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+	<data name="RestOfShelf" command="RestOfShelf" business="grocery" connector="InternationalAPI" />
+	<data name="CancelOrder" command="CancelOrder" business="grocery" connector="InternationalAPI" />
+	<data name="BasketSummary" command="BasketSummary" business="grocery" connector="InternationalAPI" />
+    <data name="ServerDateTime" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="GetProfile" command="GetProfile" business="identity" connector="InternationalAPI" />
+
+    <!-- Checkoutmanager data commands -->
+    <data name="CheckoutManagerReadyForCheckout" command="ReadyForCheckout" business="grocery" connector="InternationalAPI" />
+    <data name="CheckoutManagerJustChecking" command="JustChecking" business="grocery" connector="InternationalAPI" />
+
+	<!-- BasketManager data commands -->
+	<data name="BasketManagerBasketGuide" command="BasketGuide" business="grocery" connector="InternationalAPI" />
+	<data name="BasketManagerListBasket" command="ListBasket" business="grocery" connector="InternationalAPI" />
+    <data name="BasketManagerChangeBasket" command="ChangeBasket" business="grocery" connector="InternationalAPI" />
+    <data name="BasketManagerEmptyBasket" command="EmptyBasket" business="grocery" connector="InternationalAPI" />
+    <data name="BasketManagerSetBasketSubstitution" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+
+    <!-- SearchManager data commands -->
+    <data name="SearchManagerProductSearch" command="ProductSearch" business="grocery" connector="InternationalAPI" />
+    <!-- TescoUI data commands -->
+    <data name="Register" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="AddProfile" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    
+    <!-- clubcard -->
+    <data name="ClubcardPoints" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    
+    <!-- Dashboard, special offers -->
+    <data name="ListSpecialOffersMenu" command="ListSpecialOffersMenu" business="grocery" connector="InternationalAPI" />
+    <data name="ListProductsBySpecialOffer" command="ListProductsBySpecialOffer" business="grocery" connector="InternationalAPI" />
+
+    <!-- BuyLists -->
+    <data name="ListBuyLists" command="DummyCommand" business="grocery" connector="InternationalAPI" />
+    <data name="GetBuyList" command="BuyList" business="grocery" connector="InternationalAPI" />
+
+    <data name="ClearCache" command="ClearCache" business="grocery" connector="InternationalAPI" />
+    <data name="GetAppStatus" command="GetAppStatus" business="grocery" connector="InternationalAPI" />
+
+  </data-commands>
+  <!-- Configure the views here -->
+  <views>
+    <view name="LoginView" class="Grocery.iOS.SignInViewController,GroceryiOS" />
+    <view name="HomeView" class="Grocery.iOS.Grocery_iOSViewController,GroceryiOS" />
+  </views>
+  <filters>
+    <filter name="Analytics" type="CCube.Core.Controller.Filters.AnalyticsFilter,CCube.Core" />
+    <filter name="Validation" type="CCube.Core.Controller.Filters.ValidationFilter,CCube.Core" />
+  </filters>
+</controller>
