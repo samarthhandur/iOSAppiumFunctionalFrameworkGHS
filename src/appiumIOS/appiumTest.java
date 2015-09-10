@@ -54,7 +54,7 @@ public void testSignInSignOut() throws InterruptedException, ClientProtocolExcep
 	dashborad obj1 = new dashborad(driver);
 	obj1.signOut();
 }
- @Test
+ @Test(enabled = false)
 public void getProd() throws ClientProtocolException, IOException, ParseException, org.json.simple.parser.ParseException, JSONException, URISyntaxException, HttpException, InterruptedException{
 	 responseURL obj = new responseURL(driver);
 	obj.loginAccess();
@@ -90,11 +90,16 @@ public void anonymousShop() throws Exception
 public void clubcardTest() throws InterruptedException
 {
 	anonymousPage obj = new anonymousPage(driver);
+	if ( obj.checkElementVisibility(driver, "sign_in")== false){
+		dashborad obj1 = new dashborad(driver);
+		System.out.print("\nUser is in anonymous mode");
+		obj1.signOut();
+	}
     obj.addNewClubcard("634004024126176181", "LL219YB");
 }
 
 @Test
-public void favourites_Test() throws InterruptedException{
+public void addItemsFromfavourites_Test() throws InterruptedException{
 	dashborad obj = new dashborad(driver);
 	if ( obj.checkElementVisibility(driver, "sign_in") == true){
 		dashborad obj1 = new dashborad(driver);
@@ -127,7 +132,7 @@ public void addItemsToBasketTest() throws Exception{
 	obj1.browseSpecialOffers("Top Offers");
 	obj.addItems();
 }
-@Test
+@Test(enabled = false)
 public void addItemsTest() throws ClientProtocolException, ParseException, IOException, org.json.simple.parser.ParseException, InterruptedException, JSONException, URISyntaxException, HttpException{
 	responseURL obj = new responseURL(driver);
 	obj.loginAccess();
@@ -143,6 +148,7 @@ public void addItemsTest() throws ClientProtocolException, ParseException, IOExc
 	anonymousPage signin = new anonymousPage(driver);
 	signin.signIn();
 }
+
 @Test
 public void emptyBasketApp() throws InterruptedException
 {
@@ -168,7 +174,7 @@ public void bookSlotTest() throws InterruptedException{
 	obj1.bookASlot("Click & Collect");
 }
 
-@Test
+ @Test (enabled = false)
 public void chooseSlotTest() throws ClientProtocolException, ParseException, IOException, ParseException, org.apache.http.ParseException, JSONException, URISyntaxException, HttpException, InterruptedException{
 	responseURL obj = new responseURL(driver);
 	obj.loginAccess();
